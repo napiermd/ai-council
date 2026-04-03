@@ -20,6 +20,8 @@ When the user is trying to use the council live:
 - Use `council/invocation-patterns.md` to select the right mode
 - Use `council/ask-nigam.md` first for clinical AI questions
 - Use `council/response-rubric.md` to keep the answer sharp
+- Use `packs/*.md` when the question fits a recurring use case
+- Use `council/deployment-guide.md` when the council needs to be used from another repo
 
 Default output pattern:
 

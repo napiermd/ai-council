@@ -164,6 +164,8 @@ Load individual reference files from `references/` only when needed.
 Use `council/refresh-checklist.md` when updating or extending any profile.
 Use `council/invocation-patterns.md` when the user wants to deploy the council on a live decision.
 Use `council/ask-nigam.md` first for clinical AI and healthcare workflow questions.
+Use `packs/*.md` when the user has a recurring use case and wants a reusable default activation pattern.
+Use `council/deployment-guide.md` when the user wants to invoke the council from another repo.
 
 When using a voice profile:
 

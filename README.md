@@ -47,6 +47,7 @@ Use these only when the problem clearly calls for them:
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
 8. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
+9. Use [`council/deployment-guide.md`](./council/deployment-guide.md) and the files in [`packs/`](./packs/) when you want to use the council from another repo.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
@@ -61,6 +62,18 @@ When you have a real decision in front of you:
 2. Pick a mode from [`council/invocation-patterns.md`](./council/invocation-patterns.md).
 3. If the problem is clinical, start with [`council/ask-nigam.md`](./council/ask-nigam.md).
 4. Load only the voices needed for that question.
+
+## Session packs
+
+Use these when you want a reusable default setup instead of starting from
+scratch:
+
+- [Founder Product Pack](./packs/founder-product-pack.md)
+- [Agent Systems Pack](./packs/agent-systems-pack.md)
+- [Clinical AI Pack](./packs/clinical-ai-pack.md)
+
+If you want to use the council from another project, start with the
+[deployment guide](./council/deployment-guide.md).
 
 ## Example sessions
 
@@ -98,6 +111,7 @@ ai-council/
 ├── SKILL.md
 ├── council/
 │   ├── ask-nigam.md
+│   ├── deployment-guide.md
 │   ├── invocation-patterns.md
 │   ├── operating-principles.md
 │   ├── profile-standard.md
@@ -113,6 +127,10 @@ ai-council/
 │   ├── clinical-ai-ask-nigam-response.md
 │   ├── product-direction-response.md
 │   └── product-direction-review.md
+├── packs/
+│   ├── agent-systems-pack.md
+│   ├── clinical-ai-pack.md
+│   └── founder-product-pack.md
 ├── references/
 │   ├── andrej-karpathy.md
 │   ├── chip-huyen.md
