@@ -45,9 +45,21 @@ Use these only when the problem clearly calls for them:
 4. Pull in individual files from `references/` when a specific voice or domain is needed.
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
+7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
+
+## Live use
+
+This repo is meant to be used in-session, not just read.
+
+When you have a real decision in front of you:
+
+1. Start from [`council/session-template.md`](./council/session-template.md).
+2. Pick a mode from [`council/invocation-patterns.md`](./council/invocation-patterns.md).
+3. If the problem is clinical, start with [`council/ask-nigam.md`](./council/ask-nigam.md).
+4. Load only the voices needed for that question.
 
 ## Source-backed profiles
 
@@ -73,10 +85,13 @@ ai-council/
 ├── CLAUDE.md
 ├── SKILL.md
 ├── council/
+│   ├── ask-nigam.md
+│   ├── invocation-patterns.md
 │   ├── operating-principles.md
 │   ├── profile-standard.md
 │   ├── refresh-checklist.md
 │   ├── roster.md
+│   ├── session-template.md
 │   └── source-index.md
 ├── references/
 │   ├── andrej-karpathy.md
