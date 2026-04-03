@@ -66,9 +66,24 @@ The best council answer should return:
 1. `Situation`
 2. `Active voices`
 3. `Core tension`
-4. `What each voice is saying`
+4. `Voice scorecard`
 5. `Recommendation`
 6. `Next move`
+
+## Review mode add-on
+
+If you want the council to behave like a review panel instead of a loose
+discussion, add this line:
+
+```text
+Use rating mode. I want each active voice to give:
+- an overall rating out of 5
+- a short explanation
+- one thing to keep
+- one thing to fix
+
+Then give me a council synthesis and tell me whether this is ready.
+```
 
 ## Prompting tips
 
@@ -77,3 +92,4 @@ The best council answer should return:
 - Name real constraints or the council will invent fake freedom.
 - If the question is high-stakes, ask explicitly for disagreement.
 - If the question is clinical, say so and activate Nigam first.
+- If the question is a draft review, ask for `rating mode`.

@@ -103,12 +103,37 @@ See `council/roster.md` for activation details.
 ```text
 Situation: ...
 Active voices: ...
+Core tension: ...
 
-What each voice is saying:
+Voice scorecard:
 - ...
 
 Recommendation:
 - ...
+
+Next move:
+- ...
+```
+
+### For reviews in rating mode
+
+```text
+Situation: ...
+Active voices: ...
+Core tension: ...
+
+Voice scorecard:
+- Voice: <name>
+  Rating: <x/5>
+  Why: ...
+  Keep: ...
+  Fix: ...
+
+Council synthesis:
+- ...
+
+Recommendation:
+- Submit / revise / do not send yet
 
 Next move:
 - ...
@@ -155,6 +180,7 @@ Always load:
 - `council/roster.md`
 - `council/operating-principles.md`
 - `council/profile-standard.md`
+- `council/rating-scale.md`
 - `council/source-index.md`
 - `council/session-template.md`
 - `council/response-rubric.md`

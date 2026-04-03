@@ -5,8 +5,9 @@ At the start of a session:
 1. Read `council/roster.md`
 2. Read `council/operating-principles.md`
 3. Read `council/session-template.md`
-4. Read `council/response-rubric.md`
-5. Read `SKILL.md`
+4. Read `council/rating-scale.md`
+5. Read `council/response-rubric.md`
+6. Read `SKILL.md`
 
 When a prompt clearly maps to one or more voices:
 
@@ -28,6 +29,7 @@ Default output pattern:
 
 1. Situation
 2. Active voices
-3. Tension or agreement
-4. Recommendation
-5. What to do next
+3. Core tension
+4. Voice scorecard
+5. Recommendation
+6. What to do next

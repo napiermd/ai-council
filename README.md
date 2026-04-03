@@ -46,9 +46,10 @@ Use these only when the problem clearly calls for them:
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
-8. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
-9. Use [`council/deployment-guide.md`](./council/deployment-guide.md) and the files in [`packs/`](./packs/) when you want to use the council from another repo.
-10. Use [`signals/`](./signals/) when you need a last-30-days recency layer instead of only the hand-authored profiles.
+8. Use [`council/rating-scale.md`](./council/rating-scale.md) when you want the council to act like a review panel instead of a discussion group.
+9. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
+10. Use [`council/deployment-guide.md`](./council/deployment-guide.md) and the files in [`packs/`](./packs/) when you want to use the council from another repo.
+11. Use [`signals/`](./signals/) when you need a last-30-days recency layer instead of only the hand-authored profiles.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
@@ -62,7 +63,8 @@ When you have a real decision in front of you:
 1. Start from [`council/session-template.md`](./council/session-template.md).
 2. Pick a mode from [`council/invocation-patterns.md`](./council/invocation-patterns.md).
 3. If the problem is clinical, start with [`council/ask-nigam.md`](./council/ask-nigam.md).
-4. Load only the voices needed for that question.
+4. If you want judgment, use [`council/rating-scale.md`](./council/rating-scale.md) and ask for `rating mode`.
+5. Load only the voices needed for that question.
 
 ## Session packs
 

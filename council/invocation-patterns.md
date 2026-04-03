@@ -10,6 +10,23 @@ I want the sharpest 2-4 voices only, not everyone.
 Show me the main disagreement, then tell me what to do next.
 ```
 
+## Draft or memo review
+
+```text
+Use the AI Council to review this draft in rating mode.
+Activate only the 3-5 voices that matter.
+For each voice, give:
+- an overall rating out of 5
+- a short why
+- one thing to keep
+- one thing to fix
+
+Then give me:
+- the council range
+- whether this is ready to submit
+- the single best next revision move
+```
+
 ## Product decision
 
 ```text
