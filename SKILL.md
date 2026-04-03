@@ -154,5 +154,12 @@ Always load:
 
 - `council/roster.md`
 - `council/operating-principles.md`
+- `council/profile-standard.md`
 
 Load individual reference files from `references/` only when needed.
+
+When using a voice profile:
+
+- prefer the profile's source-backed sections over generic public reputation
+- use `Current signals` only if they are explicitly present in the profile
+- if a profile lacks source basis for a claim, treat that claim as weaker

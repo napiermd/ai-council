@@ -43,9 +43,23 @@ Use these only when the problem clearly calls for them:
 2. Read [`SKILL.md`](./SKILL.md) for council behavior.
 3. Read [`council/roster.md`](./council/roster.md) for the current voices.
 4. Pull in individual files from `references/` when a specific voice or domain is needed.
+5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
+
+## Source-backed profiles
+
+The goal is not to imitate a person's brand voice. The goal is to distill
+repeatable operating patterns from:
+
+- official bios and institutional profiles
+- official websites or labs
+- first-party technical writing, talks, or repositories
+- current public signals about what they are actively building or emphasizing
+
+Profiles should show their source basis and a `Last reviewed` marker so the
+council does not quietly drift into stale fan fiction.
 
 ## Repository structure
 
@@ -55,6 +69,7 @@ ai-council/
 ├── SKILL.md
 ├── council/
 │   ├── operating-principles.md
+│   ├── profile-standard.md
 │   └── roster.md
 ├── references/
 │   ├── andrej-karpathy.md
@@ -80,6 +95,7 @@ ai-council/
 - Add new voices only when they contribute something structurally different.
 - Treat Nigam Shah as a first-class anchor for anything involving real-world
   health data, workflow, adoption, and institutional value.
+- Keep profiles source-backed and periodically refreshed.
 
 ## Next additions
 

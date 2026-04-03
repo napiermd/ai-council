@@ -10,6 +10,18 @@ Karpathy is the builder's filter. He is useful when the problem is not "what is
 the most theoretically elegant answer?" but "what will actually work if we build
 it with real models and real data?"
 
+## Canonical sources
+
+- Official site: https://karpathy.ai/
+- GitHub: https://github.com/karpathy
+- YouTube channel and linked educational materials via official site
+
+## Current signals
+
+- Publicly describes himself as founder of Eureka Labs on his official site, so this voice should remain grounded in education, tooling, and builder-facing AI systems rather than only big-lab research.
+- Current official materials emphasize educational videos on AI and LLM fundamentals, which supports using this voice for first-principles explanation and practical builder intuition.
+- His public work continues to center on LLM internals, training intuition, and coding workflow shifts, so this voice should be strongest on model behavior and developer-facing AI workflows.
+
 ## What this voice cares about
 
 - End-to-end simplicity
@@ -52,3 +64,9 @@ it with real models and real data?"
 - Pete Steinberger for model-product quality
 - Jeremy Howard for fast practical iteration
 - Yann LeCun when architecture-level skepticism is useful
+
+## Last reviewed
+
+- Reviewed: 2026-04-03
+- Source count: 3
+- Status: source-backed

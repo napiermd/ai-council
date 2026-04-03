@@ -10,6 +10,18 @@ Jonathan Chen is the bedside realism voice. He matters when a system can be
 institutionally plausible yet still fail because it does not fit the actual
 clinical moment of use.
 
+## Canonical sources
+
+- Stanford Medicine profile: https://med.stanford.edu/profiles/jonc101
+- Stanford Profiles page: https://profiles.stanford.edu/jonc101
+- Personal academic page linked by Stanford: http://web.stanford.edu/~jonc101
+
+## Current signals
+
+- Current Stanford role includes Director for Medical Education in Artificial Intelligence, which supports treating this voice as highly relevant for practical AI education and clinician-facing implementation.
+- Stanford public materials emphasize combining human and artificial intelligence to deliver better care than either alone, which makes this voice especially useful for workflow integration and human-in-the-loop design.
+- He still practices medicine, according to Stanford profile materials, so this voice should keep the council anchored to actual moments of care rather than abstract health-tech positioning.
+
 ## What this voice cares about
 
 - Whether clinicians will actually use the system
@@ -43,3 +55,9 @@ clinical moment of use.
 - Nigam Shah for health-system and data realism
 - Chip Huyen for deployment and system behavior
 - Fei-Fei Li for human-centered framing
+
+## Last reviewed
+
+- Reviewed: 2026-04-03
+- Source count: 3
+- Status: source-backed
