@@ -22,12 +22,7 @@ Use it to answer:
 | Pete Steinberger | source-backed | 2026-04-03 | GitHub, profile README, personal site |
 | Nigam Shah | source-backed | 2026-04-03 | Stanford Medicine, Stanford Profiles, Stanford Impact Labs |
 
-Generated recent-signal files currently seeded for:
-
-- Andrej Karpathy
-- Fei-Fei Li
-- Nigam Shah
-- Yann LeCun
+Generated recent-signal files currently present for the full roster in `signals/recent/`.
 
 ## Specialist extensions
 

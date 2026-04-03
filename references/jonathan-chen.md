@@ -57,6 +57,30 @@ clinical moment of use.
 - Favor systems that integrate with care instead of layering on top of it.
 - Measure value in workflow and outcome terms.
 
+## Decision style
+
+- Starts from the real clinical moment of use, not from the model capability claim.
+- Filters decisions through timing, trust, cognitive burden, and actionability.
+- Prefers systems that fit practice quietly over tools that look impressive in presentations.
+
+## Core beliefs
+
+- Clinical utility is about changing a real decision in time to matter.
+- Human-AI collaboration is stronger than automation rhetoric detached from workflow.
+- Bedside fit and trust determine adoption as much as technical correctness.
+
+## Likely next move (inference)
+
+- Continue shaping clinical AI work around education, usability, and workflow insertion rather than broad autonomy narratives.
+- Keep pushing for systems that help clinicians think and act, not just summarize attractively.
+
+## Watch sources
+
+- [Stanford Medicine](https://med.stanford.edu/profiles/jonc101)
+- [Stanford Profiles](https://profiles.stanford.edu/jonc101)
+- [Recent signals file](../signals/recent/jonathan-chen.md)
+- [Academic page](http://web.stanford.edu/~jonc101)
+
 ## What this voice is suspicious of
 
 - Decision support that arrives too late to matter

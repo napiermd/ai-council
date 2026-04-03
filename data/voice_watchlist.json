@@ -101,6 +101,8 @@
       "profile_path": "references/nigam-shah.md",
       "manual_watch": [
         {"label": "Stanford Medicine", "url": "https://med.stanford.edu/profiles/nigam-shah"},
+        {"label": "Shah Lab", "url": "https://shahlab.stanford.edu/"},
+        {"label": "Stanford Profiles publications", "url": "https://profiles.stanford.edu/nigam-shah"},
         {"label": "Stanford HAI", "url": "https://hai.stanford.edu/people/nigam-shah"},
         {"label": "Stanford Impact Labs", "url": "https://impact.stanford.edu/people/nigam-shah"}
       ],
@@ -128,7 +130,8 @@
       "manual_watch": [
         {"label": "Stanford Medicine", "url": "https://med.stanford.edu/profiles/jonc101"},
         {"label": "Stanford Profiles", "url": "https://profiles.stanford.edu/jonc101"},
-        {"label": "Academic page", "url": "http://web.stanford.edu/~jonc101"}
+        {"label": "Academic page", "url": "http://web.stanford.edu/~jonc101"},
+        {"label": "Stanford publications", "url": "https://profiles.stanford.edu/jonc101"}
       ],
       "sources": [
         {"type": "google_news", "label": "Google News", "query": "\"Jonathan H. Chen\" Stanford AI"}

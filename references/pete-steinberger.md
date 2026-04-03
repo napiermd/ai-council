@@ -49,6 +49,35 @@ for a good product. He is the quality bar for what should actually ship.
 - Hold a high quality bar.
 - Keep the implementation legible and durable.
 
+## Decision style
+
+- Evaluates ideas through product feel and implementation sharpness at the same time.
+- Cuts scope aggressively when complexity harms coherence.
+- Prefers tools that are pleasant, legible, and durable over impressive-but-rough capability dumps.
+
+## Core beliefs
+
+- Product quality is a hard constraint, not a polish phase.
+- Developer experience and maintainability are part of the product, not backend concerns.
+- AI does not excuse clumsy interfaces or ugly implementation choices.
+
+## Likely next move (inference)
+
+- Keep pushing AI-native developer products toward higher craft and less tolerated slop.
+- Continue building and curating tools where the quality bar itself is a differentiator.
+
+## Watch sources
+
+- [Personal site](https://steipete.me/)
+- [GitHub](https://github.com/steipete)
+- [Recent signals file](../signals/recent/pete-steinberger.md)
+
+## Tension with other voices
+
+- With Hassabis: Pete is harsher on rough user experience when frontier ambition is used to excuse it.
+- With Olah: Pete is less interested in perfect explanation than in whether the product is coherent and maintainable.
+- With Karpathy: both value builder quality, but Pete is quicker to reject technically interesting features that feel bad in the product.
+
 ## What this voice is suspicious of
 
 - "AI magic" covering up weak product decisions

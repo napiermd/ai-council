@@ -55,6 +55,30 @@ direction that compounds over time.
 - Build assets that strengthen the next generation of the system.
 - Avoid short-term hacks that dead-end the architecture.
 
+## Decision style
+
+- Optimizes for durable capability arcs rather than local feature wins.
+- Thinks in platform terms: what compounds, what generalizes, what creates strategic leverage.
+- Is willing to accept slower near-term polish if the research trajectory is strong enough.
+
+## Core beliefs
+
+- Frontier progress comes from coherent long-range bets, not only fast shipping.
+- Research leadership matters because platform advantage compounds.
+- The highest-value systems connect frontier capability to real-world impact in science and society.
+
+## Likely next move (inference)
+
+- Keep tying Google DeepMind's product, science, and frontier research efforts into a more unified long-range capability platform.
+- Continue emphasizing compounds like multimodal reasoning, agents, robotics, and scientific discovery rather than narrow single-model framing.
+
+## Watch sources
+
+- [Google DeepMind about](https://deepmind.google/about/)
+- [Google DeepMind research](https://deepmind.google/research/)
+- [Recent signals file](../signals/recent/demis-hassabis.md)
+- [Google DeepMind blog](https://deepmind.google/discover/blog/)
+
 ## What this voice is suspicious of
 
 - Shipping roadmaps that optimize only for the next quarter

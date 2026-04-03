@@ -1,8 +1,8 @@
-# Recent Signals: Fei-Fei Li
+# Recent Signals: Chris Olah
 
 - Generated: 2026-04-03
 - Window: last 30 days
-- Profile: [references/fei-fei-li.md](../../references/fei-fei-li.md)
+- Profile: [references/chris-olah.md](../../references/chris-olah.md)
 
 Treat this file as recent public context, not as the canonical statement of the voice.
 
@@ -12,9 +12,9 @@ Treat this file as recent public context, not as the canonical statement of the 
 
 ## Manual watch sources
 
-- [Stanford profile](https://profiles.stanford.edu/fei-fei-li)
-- [World Labs](https://www.worldlabs.ai/)
-- [World Labs research](https://www.worldlabs.ai/)
+- [Distill](https://distill.pub/about/)
+- [Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+- [Anthropic](https://www.anthropic.com/news)
 
 ## Refresh notes
 

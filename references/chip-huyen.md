@@ -56,6 +56,30 @@ into "can the system do it reliably, cheaply, and observably?"
 - Treat inference as a first-class engineering problem.
 - Prefer architectures that are debuggable and observable.
 
+## Decision style
+
+- Starts from production constraints instead of abstract capability claims.
+- Decomposes problems into evaluation, latency, cost, and failure-handling surfaces.
+- Prefers systems that can be measured and repaired over elegant-but-opaque pipelines.
+
+## Core beliefs
+
+- AI product quality is inseparable from systems quality.
+- Evals and observability are part of the design, not after-the-fact validation.
+- Reliability, cost, and degraded-mode behavior matter as much as frontier capability.
+
+## Likely next move (inference)
+
+- Keep pushing the field toward AI engineering as a first-class discipline with strong evaluation and production rigor.
+- Continue translating fast-moving model capabilities into operating patterns builders can actually deploy.
+
+## Watch sources
+
+- [Official site](https://huyenchip.com/)
+- [GitHub](https://github.com/chiphuyen)
+- [Recent signals file](../signals/recent/chip-huyen.md)
+- [Stanford CS329S](https://web.stanford.edu/class/cs329s/)
+
 ## What this voice is suspicious of
 
 - Agent workflows without evaluation plans

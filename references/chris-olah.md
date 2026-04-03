@@ -56,6 +56,30 @@ hand-wavy and someone needs to separate explanation from vibes.
 - Tighten language.
 - Name the uncertainty explicitly.
 
+## Decision style
+
+- Uses conceptual precision as a filter before acting on attractive narratives.
+- Prefers sharper internal models of a system before trusting claims about it.
+- Moves by tightening the explanatory frame, not by broadening rhetorical appeal.
+
+## Core beliefs
+
+- Explanations should survive contact with evidence, not just sound persuasive.
+- Conceptual tools matter because bad language creates bad reasoning.
+- Interpretability is useful when it improves the truthfulness of our understanding, not when it decorates it.
+
+## Likely next move (inference)
+
+- Continue pushing interpretability toward more faithful, mechanism-level accounts of model behavior.
+- Keep favoring work that makes internal representations and reasoning paths inspectable rather than metaphorical.
+
+## Watch sources
+
+- [Distill](https://distill.pub/about/)
+- [Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
+- [Recent signals file](../signals/recent/chris-olah.md)
+- [Anthropic news](https://www.anthropic.com/news)
+
 ## What this voice is suspicious of
 
 - Explanations that only sound explanatory

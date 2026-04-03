@@ -1,8 +1,8 @@
-# Recent Signals: Andrej Karpathy
+# Recent Signals: Chip Huyen
 
 - Generated: 2026-04-03
 - Window: last 30 days
-- Profile: [references/andrej-karpathy.md](../../references/andrej-karpathy.md)
+- Profile: [references/chip-huyen.md](../../references/chip-huyen.md)
 
 Treat this file as recent public context, not as the canonical statement of the voice.
 
@@ -12,9 +12,9 @@ Treat this file as recent public context, not as the canonical statement of the 
 
 ## Manual watch sources
 
-- [Official site](https://karpathy.ai/)
-- [GitHub](https://github.com/karpathy)
-- [X](https://x.com/karpathy)
+- [Official site](https://huyenchip.com/)
+- [GitHub](https://github.com/chiphuyen)
+- [Good AI List / OSS curation](https://huyenchip.com/2024/03/14/ai-oss.html)
 
 ## Refresh notes
 

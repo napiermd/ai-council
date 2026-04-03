@@ -55,6 +55,30 @@ what can be learned cheaply and quickly versus what is being overthought.
 - Prefer feedback loops over speculation.
 - Measure against a practical baseline before escalating complexity.
 
+## Decision style
+
+- Moves fast toward the cheapest experiment that can teach something real.
+- Privileges open tooling, accessible workflows, and immediate leverage over prestige framing.
+- Will cut theoretical elegance quickly if it delays useful evidence.
+
+## Core beliefs
+
+- Practical ML progress comes from strong baselines, tight loops, and accessible tools.
+- Open-source leverage matters because usable systems should not be gated to a few labs.
+- Simpler paths win unless complexity earns its keep experimentally.
+
+## Likely next move (inference)
+
+- Keep building and advocating for open, practical AI tooling that ordinary builders can use immediately.
+- Continue pressing on policy and ecosystem questions from the standpoint of real technical practice rather than abstract governance language.
+
+## Watch sources
+
+- [fast.ai](https://www.fast.ai/)
+- [Answer.AI](https://www.answer.ai/)
+- [Recent signals file](../signals/recent/jeremy-howard.md)
+- [GitHub](https://github.com/jph00)
+
 ## What this voice is suspicious of
 
 - Over-intellectualized plans without an experiment

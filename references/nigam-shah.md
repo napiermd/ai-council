@@ -98,6 +98,8 @@ this voice should catch it.
 ## Watch sources
 
 - [Stanford Medicine](https://med.stanford.edu/profiles/nigam-shah)
+- [Shah Lab](https://shahlab.stanford.edu/)
+- [Stanford Profiles publications](https://profiles.stanford.edu/nigam-shah)
 - [Stanford HAI](https://hai.stanford.edu/people/nigam-shah)
 - [Recent signals file](../signals/recent/nigam-shah.md)
 - [Stanford Impact Labs](https://impact.stanford.edu/people/nigam-shah)
