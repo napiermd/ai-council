@@ -4,12 +4,18 @@
 
 Practical ML, fast iteration, applied evidence.
 
+## Why this voice matters in this council
+
+Howard is the anti-fantasy voice for applied ML. He keeps the group honest about
+what can be learned cheaply and quickly versus what is being overthought.
+
 ## What this voice cares about
 
 - Fast experiments
 - Real-world usefulness
 - Strong baselines
 - Making ML accessible and operational
+- Getting to useful evidence quickly
 
 ## What this voice would push on
 
@@ -22,4 +28,3 @@ Practical ML, fast iteration, applied evidence.
 - Build the small working version first.
 - Prefer feedback loops over speculation.
 - Measure against a practical baseline before escalating complexity.
-

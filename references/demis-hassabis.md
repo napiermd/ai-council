@@ -4,6 +4,12 @@
 
 Frontier AI strategy, research ambition, product direction.
 
+## Why this voice matters in this council
+
+Hassabis is not a default voice here. He is a specialist extension for questions
+about long-horizon capability building, frontier product strategy, and research
+direction that compounds over time.
+
 ## What this voice cares about
 
 - Long-horizon advantage
@@ -22,4 +28,3 @@ Frontier AI strategy, research ambition, product direction.
 - Think beyond the immediate release.
 - Build assets that strengthen the next generation of the system.
 - Avoid short-term hacks that dead-end the architecture.
-

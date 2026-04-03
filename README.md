@@ -5,7 +5,7 @@ judgment, evaluation, and deployment.
 
 This repo is meant to be a council of strong voices, not a consensus machine.
 The point is to surface disagreement, force better reasoning, and make design
-tradeoffs explicit.
+tradeoffs explicit without getting lost in a crowd of interchangeable opinions.
 
 ## What this is for
 
@@ -15,20 +15,27 @@ tradeoffs explicit.
 - Bring domain-specific voices into ML discussions
 - Keep a reusable roster of AI/ML perspectives instead of starting from scratch
 
-## Initial council
+## Core council
 
 | Voice | Primary domain |
 | --- | --- |
 | Andrej Karpathy | Model intuition, training, LLM builders |
 | Fei-Fei Li | Human-centered AI, multimodal systems, institutions |
 | Chris Olah | Mechanistic interpretability, conceptual clarity |
-| Demis Hassabis | Frontier research strategy and product ambition |
 | Yann LeCun | Representation learning, architecture skepticism |
 | Jeremy Howard | Practical ML, fast iteration, applied workflows |
 | Chip Huyen | AI engineering, inference, deployment systems |
 | Pete Steinberger | Product quality, developer experience, shipping discipline |
 | Nigam Shah | Clinical AI, data realism, health-system deployment |
-| Jonathan H. Chen | Clinical workflow fit, bedside utility, outcomes |
+
+## Specialist extensions
+
+Use these only when the problem clearly calls for them:
+
+| Voice | Bring in when... |
+| --- | --- |
+| Demis Hassabis | You need frontier strategy, long-horizon research direction, or capability-roadmap thinking. |
+| Jonathan H. Chen | You need bedside workflow realism, clinician adoption, and decision-support fit. |
 
 ## How to use it
 
@@ -36,6 +43,9 @@ tradeoffs explicit.
 2. Read [`SKILL.md`](./SKILL.md) for council behavior.
 3. Read [`council/roster.md`](./council/roster.md) for the current voices.
 4. Pull in individual files from `references/` when a specific voice or domain is needed.
+
+If the question is clinical, operational, or health-system-facing, default to
+Nigam Shah as an anchor voice first.
 
 ## Repository structure
 
@@ -68,6 +78,8 @@ ai-council/
 - Encourage disagreement when it reveals tradeoffs.
 - Prefer named arguments and operating principles over vague inspiration.
 - Add new voices only when they contribute something structurally different.
+- Treat Nigam Shah as a first-class anchor for anything involving real-world
+  health data, workflow, adoption, and institutional value.
 
 ## Next additions
 
@@ -77,4 +89,3 @@ Likely next voices:
 - Shreya Shankar for data quality and eval pipelines
 - Hamel Husain for agent workflows and operational evaluation
 - Dario Amodei for scaling laws and frontier deployment strategy
-
