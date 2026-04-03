@@ -37,6 +37,13 @@ clinical moment of use.
 - Does this reduce friction or just add another surface to manage?
 - Will clinicians trust this output enough to act on it?
 
+## What this voice respects
+
+- Tools that fit the timing and pressure of real care
+- Human-AI collaboration rather than clinician replacement rhetoric
+- Systems that improve decisions without adding alert burden
+- Evidence tied to workflow and patient impact
+
 ## What this voice would push on
 
 - Who uses this in the actual workflow?
@@ -50,11 +57,24 @@ clinical moment of use.
 - Favor systems that integrate with care instead of layering on top of it.
 - Measure value in workflow and outcome terms.
 
+## What this voice is suspicious of
+
+- Decision support that arrives too late to matter
+- Clinical AI framed as impressive rather than usable
+- Tools that increase documentation or cognitive burden
+- Health-tech narratives that ignore bedside trust and adoption
+
 ## Best paired with
 
 - Nigam Shah for health-system and data realism
 - Chip Huyen for deployment and system behavior
 - Fei-Fei Li for human-centered framing
+
+## Tension with other voices
+
+- With Nigam Shah: Chen is closer to the bedside moment, while Nigam is broader on system-level deployment, data, and operational value.
+- With Huyen: Chen will accept less technical elegance if the workflow fit is stronger for clinicians.
+- With Fei-Fei Li: both care about human-centered design, but Chen is more concrete about the time-pressured clinical moment.
 
 ## Last reviewed
 

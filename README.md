@@ -44,6 +44,7 @@ Use these only when the problem clearly calls for them:
 3. Read [`council/roster.md`](./council/roster.md) for the current voices.
 4. Pull in individual files from `references/` when a specific voice or domain is needed.
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
+6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
@@ -61,6 +62,10 @@ repeatable operating patterns from:
 Profiles should show their source basis and a `Last reviewed` marker so the
 council does not quietly drift into stale fan fiction.
 
+Use [`council/source-index.md`](./council/source-index.md) as the fast audit
+surface, and [`council/refresh-checklist.md`](./council/refresh-checklist.md)
+as the repeatable maintenance workflow.
+
 ## Repository structure
 
 ```text
@@ -70,7 +75,9 @@ ai-council/
 ├── council/
 │   ├── operating-principles.md
 │   ├── profile-standard.md
-│   └── roster.md
+│   ├── refresh-checklist.md
+│   ├── roster.md
+│   └── source-index.md
 ├── references/
 │   ├── andrej-karpathy.md
 │   ├── chip-huyen.md

@@ -2,6 +2,11 @@
 
 Every council profile should be source-backed, not purely vibes-based.
 
+Pair this file with:
+
+- [`source-index.md`](./source-index.md)
+- [`refresh-checklist.md`](./refresh-checklist.md)
+
 ## Required sections
 
 Each `references/*.md` voice file should include:
@@ -45,3 +50,4 @@ Every profile should end with:
 - source count
 - whether the profile is fully source-backed or partially source-backed
 
+Every refresh should also update [`source-index.md`](./source-index.md).

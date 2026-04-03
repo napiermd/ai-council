@@ -155,8 +155,11 @@ Always load:
 - `council/roster.md`
 - `council/operating-principles.md`
 - `council/profile-standard.md`
+- `council/source-index.md`
 
 Load individual reference files from `references/` only when needed.
+
+Use `council/refresh-checklist.md` when updating or extending any profile.
 
 When using a voice profile:
 
