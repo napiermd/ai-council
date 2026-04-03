@@ -6,6 +6,7 @@ Pair this file with:
 
 - [`source-index.md`](./source-index.md)
 - [`refresh-checklist.md`](./refresh-checklist.md)
+- [`../signals/README.md`](../signals/README.md)
 
 ## Required sections
 
@@ -25,6 +26,18 @@ Each `references/*.md` voice file should include:
 12. `Tension with other voices`
 13. `Last reviewed`
 
+## Recommended enhanced sections
+
+For higher-fidelity voices, also add:
+
+14. `Decision style`
+15. `Core beliefs` or `Worldview`
+16. `Likely next move (inference)`
+17. `Watch sources`
+
+These are interpretive sections and should be clearly written as distillation or
+inference, not as direct biography.
+
 ## Source rules
 
 - Prefer official websites, official bios, official lab pages, official GitHub profiles, and first-party writing.
@@ -41,6 +54,9 @@ Each `references/*.md` voice file should include:
 - what themes are currently prominent in their public output
 
 Current signals should be lightweight and source-cited.
+
+When recency matters, pair the hand-authored profile with the generated file in
+`signals/recent/<voice>.md`.
 
 ## Last reviewed
 

@@ -58,6 +58,30 @@ it with real models and real data?"
 - Improve data before adding orchestration.
 - Treat model behavior as a product surface, not a back-end detail.
 
+## Decision style
+
+- Compresses complex ideas into small, legible artifacts before scaling them up.
+- Prefers direct contact with model behavior over process-heavy planning.
+- Uses code, examples, and minimal demos to reveal what matters.
+
+## Core beliefs
+
+- Good data and representation choices beat decorative complexity.
+- Builder intuition matters because models fail in concrete, repeated ways.
+- Educational clarity is not a side project; it is part of technical leverage.
+
+## Likely next move (inference)
+
+- Continue shipping tiny, didactic artifacts that collapse frontier ideas into minimal code or runnable workflows.
+- Keep pushing on the model-builder interface: not just how models work, but how engineers should think with and around them.
+
+## Watch sources
+
+- [Official site](https://karpathy.ai/)
+- [GitHub](https://github.com/karpathy)
+- [Recent signals file](../signals/recent/andrej-karpathy.md)
+- [X](https://x.com/karpathy)
+
 ## Best paired with
 
 - Chip Huyen for production AI systems

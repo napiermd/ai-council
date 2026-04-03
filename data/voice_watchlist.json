@@ -1,0 +1,138 @@
+{
+  "window_days": 30,
+  "voices": [
+    {
+      "id": "andrej-karpathy",
+      "name": "Andrej Karpathy",
+      "profile_path": "references/andrej-karpathy.md",
+      "manual_watch": [
+        {"label": "Official site", "url": "https://karpathy.ai/"},
+        {"label": "GitHub", "url": "https://github.com/karpathy"},
+        {"label": "X", "url": "https://x.com/karpathy"}
+      ],
+      "sources": [
+        {"type": "github_user_events", "label": "GitHub public activity", "user": "karpathy"},
+        {"type": "google_news", "label": "Google News", "query": "\"Andrej Karpathy\" AI"}
+      ]
+    },
+    {
+      "id": "fei-fei-li",
+      "name": "Fei-Fei Li",
+      "profile_path": "references/fei-fei-li.md",
+      "manual_watch": [
+        {"label": "Stanford profile", "url": "https://profiles.stanford.edu/fei-fei-li"},
+        {"label": "World Labs", "url": "https://www.worldlabs.ai/"},
+        {"label": "World Labs research", "url": "https://www.worldlabs.ai/"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Fei-Fei Li\" OR \"World Labs\" spatial intelligence"}
+      ]
+    },
+    {
+      "id": "chris-olah",
+      "name": "Chris Olah",
+      "profile_path": "references/chris-olah.md",
+      "manual_watch": [
+        {"label": "Distill", "url": "https://distill.pub/about/"},
+        {"label": "Transformer Circuits", "url": "https://transformer-circuits.pub/2021/framework/index.html"},
+        {"label": "Anthropic", "url": "https://www.anthropic.com/news"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Chris Olah\" Anthropic interpretability"}
+      ]
+    },
+    {
+      "id": "yann-lecun",
+      "name": "Yann LeCun",
+      "profile_path": "references/yann-lecun.md",
+      "manual_watch": [
+        {"label": "Official site", "url": "https://yann.lecun.com/"},
+        {"label": "AMI Labs", "url": "https://ami-labs.org/"},
+        {"label": "LinkedIn", "url": "https://www.linkedin.com/in/yann-lecun/"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Yann LeCun\" OR \"AMI Labs\" world models"}
+      ]
+    },
+    {
+      "id": "jeremy-howard",
+      "name": "Jeremy Howard",
+      "profile_path": "references/jeremy-howard.md",
+      "manual_watch": [
+        {"label": "fast.ai", "url": "https://www.fast.ai/"},
+        {"label": "Answer.AI", "url": "https://www.answer.ai/"},
+        {"label": "GitHub", "url": "https://github.com/jph00"}
+      ],
+      "sources": [
+        {"type": "github_user_events", "label": "GitHub public activity", "user": "jph00"},
+        {"type": "google_news", "label": "Google News", "query": "\"Jeremy Howard\" OR \"Answer.AI\""}
+      ]
+    },
+    {
+      "id": "chip-huyen",
+      "name": "Chip Huyen",
+      "profile_path": "references/chip-huyen.md",
+      "manual_watch": [
+        {"label": "Official site", "url": "https://huyenchip.com/"},
+        {"label": "GitHub", "url": "https://github.com/chiphuyen"},
+        {"label": "Good AI List / OSS curation", "url": "https://huyenchip.com/2024/03/14/ai-oss.html"}
+      ],
+      "sources": [
+        {"type": "github_user_events", "label": "GitHub public activity", "user": "chiphuyen"},
+        {"type": "google_news", "label": "Google News", "query": "\"Chip Huyen\" \"AI Engineering\""}
+      ]
+    },
+    {
+      "id": "pete-steinberger",
+      "name": "Pete Steinberger",
+      "profile_path": "references/pete-steinberger.md",
+      "manual_watch": [
+        {"label": "Personal site", "url": "https://steipete.me/"},
+        {"label": "GitHub", "url": "https://github.com/steipete"}
+      ],
+      "sources": [
+        {"type": "github_user_events", "label": "GitHub public activity", "user": "steipete"},
+        {"type": "google_news", "label": "Google News", "query": "\"Peter Steinberger\" OR steipete"}
+      ]
+    },
+    {
+      "id": "nigam-shah",
+      "name": "Nigam Shah",
+      "profile_path": "references/nigam-shah.md",
+      "manual_watch": [
+        {"label": "Stanford Medicine", "url": "https://med.stanford.edu/profiles/nigam-shah"},
+        {"label": "Stanford HAI", "url": "https://hai.stanford.edu/people/nigam-shah"},
+        {"label": "Stanford Impact Labs", "url": "https://impact.stanford.edu/people/nigam-shah"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Nigam Shah\" Stanford AI healthcare"}
+      ]
+    },
+    {
+      "id": "demis-hassabis",
+      "name": "Demis Hassabis",
+      "profile_path": "references/demis-hassabis.md",
+      "manual_watch": [
+        {"label": "Google DeepMind about", "url": "https://deepmind.google/about/"},
+        {"label": "Google DeepMind news", "url": "https://deepmind.google/discover/blog/"},
+        {"label": "Google DeepMind research", "url": "https://deepmind.google/research/"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Demis Hassabis\" OR \"Google DeepMind\""}
+      ]
+    },
+    {
+      "id": "jonathan-chen",
+      "name": "Jonathan H. Chen",
+      "profile_path": "references/jonathan-chen.md",
+      "manual_watch": [
+        {"label": "Stanford Medicine", "url": "https://med.stanford.edu/profiles/jonc101"},
+        {"label": "Stanford Profiles", "url": "https://profiles.stanford.edu/jonc101"},
+        {"label": "Academic page", "url": "http://web.stanford.edu/~jonc101"}
+      ],
+      "sources": [
+        {"type": "google_news", "label": "Google News", "query": "\"Jonathan H. Chen\" Stanford AI"}
+      ]
+    }
+  ]
+}

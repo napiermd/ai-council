@@ -7,6 +7,7 @@ Use it to answer:
 - which profiles are fully source-backed
 - when each voice was last reviewed
 - which first-party sources anchor each profile
+- which voices also have generated recent-signal files
 
 ## Core voices
 
@@ -20,6 +21,13 @@ Use it to answer:
 | Chip Huyen | source-backed | 2026-04-03 | `huyenchip.com`, Stanford CS329S, O'Reilly |
 | Pete Steinberger | source-backed | 2026-04-03 | GitHub, profile README, personal site |
 | Nigam Shah | source-backed | 2026-04-03 | Stanford Medicine, Stanford Profiles, Stanford Impact Labs |
+
+Generated recent-signal files currently seeded for:
+
+- Andrej Karpathy
+- Fei-Fei Li
+- Nigam Shah
+- Yann LeCun
 
 ## Specialist extensions
 

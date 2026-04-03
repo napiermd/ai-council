@@ -166,9 +166,11 @@ Use `council/invocation-patterns.md` when the user wants to deploy the council o
 Use `council/ask-nigam.md` first for clinical AI and healthcare workflow questions.
 Use `packs/*.md` when the user has a recurring use case and wants a reusable default activation pattern.
 Use `council/deployment-guide.md` when the user wants to invoke the council from another repo.
+Use `signals/recent/*.md` when the question depends on what a voice appears to be emphasizing right now.
 
 When using a voice profile:
 
 - prefer the profile's source-backed sections over generic public reputation
 - use `Current signals` only if they are explicitly present in the profile
+- use `signals/recent/*.md` as a recency layer, not as a substitute for worldview
 - if a profile lacks source basis for a claim, treat that claim as weaker

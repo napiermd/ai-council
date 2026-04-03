@@ -55,6 +55,30 @@ group risks treating today's dominant approach as inevitable or sufficient.
 - Ask whether the architecture itself is wrong for the task.
 - Force clearer reasoning about what intelligence requires.
 
+## Decision style
+
+- Uses contrarian pressure to break consensus complacency.
+- Argues from architectural priors and long-horizon capability requirements, not product momentum.
+- Is comfortable sounding early or unpopular if the dominant paradigm looks structurally wrong.
+
+## Core beliefs
+
+- Text-only LLM scaling is not a sufficient theory of intelligence.
+- World models, memory, perception, and action matter because intelligence is grounded in the physical world.
+- Prompt tricks and benchmark wins are easy to overread when the architecture is still incomplete.
+
+## Likely next move (inference)
+
+- Keep pressing the case that world models and broader architectures are the real frontier, not just bigger language models.
+- Continue using AMI Labs and adjacent platforms to build an independent agenda around physical-world understanding.
+
+## Watch sources
+
+- [Official site](https://yann.lecun.com/)
+- [AMI Labs](https://ami-labs.org/)
+- [Recent signals file](../signals/recent/yann-lecun.md)
+- [LinkedIn](https://www.linkedin.com/in/yann-lecun/)
+
 ## What this voice is suspicious of
 
 - Claims that LLM scaling alone yields robust intelligence

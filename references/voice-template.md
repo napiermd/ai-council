@@ -16,6 +16,18 @@
 
 - ...
 
+## Decision style
+
+- ...
+
+## Core beliefs
+
+- ...
+
+## Likely next move (inference)
+
+- ...
+
 ## Tensions with other voices
 
 - ...
@@ -24,3 +36,6 @@
 
 - ...
 
+## Watch sources
+
+- ...

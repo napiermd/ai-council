@@ -48,6 +48,7 @@ Use these only when the problem clearly calls for them:
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
 8. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
 9. Use [`council/deployment-guide.md`](./council/deployment-guide.md) and the files in [`packs/`](./packs/) when you want to use the council from another repo.
+10. Use [`signals/`](./signals/) when you need a last-30-days recency layer instead of only the hand-authored profiles.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
@@ -103,12 +104,25 @@ Use [`council/source-index.md`](./council/source-index.md) as the fast audit
 surface, and [`council/refresh-checklist.md`](./council/refresh-checklist.md)
 as the repeatable maintenance workflow.
 
+## Recent-signal automation
+
+The council now has a generated recency layer:
+
+- [`data/voice_watchlist.json`](./data/voice_watchlist.json)
+- [`signals/`](./signals/)
+- [`scripts/refresh_recent_signals.py`](./scripts/refresh_recent_signals.py)
+- [`.github/workflows/weekly-voice-refresh.yml`](./.github/workflows/weekly-voice-refresh.yml)
+
+This is where last-30-days monitoring lives. It should inform the profiles, not replace them.
+
 ## Repository structure
 
 ```text
 ai-council/
 ├── CLAUDE.md
 ├── SKILL.md
+├── .github/workflows/
+│   └── weekly-voice-refresh.yml
 ├── council/
 │   ├── ask-nigam.md
 │   ├── deployment-guide.md
@@ -131,6 +145,8 @@ ai-council/
 │   ├── agent-systems-pack.md
 │   ├── clinical-ai-pack.md
 │   └── founder-product-pack.md
+├── data/
+│   └── voice_watchlist.json
 ├── references/
 │   ├── andrej-karpathy.md
 │   ├── chip-huyen.md
@@ -143,6 +159,13 @@ ai-council/
 │   ├── pete-steinberger.md
 │   ├── voice-template.md
 │   └── yann-lecun.md
+├── scripts/
+│   └── refresh_recent_signals.py
+├── signals/
+│   ├── README.md
+│   ├── summary.md
+│   └── recent/
+│       └── *.md
 └── .gitignore
 ```
 

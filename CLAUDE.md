@@ -11,6 +11,7 @@ At the start of a session:
 When a prompt clearly maps to one or more voices:
 
 - Load only the relevant `references/*.md` files
+- Load `signals/recent/*.md` for those voices if the question depends on the last 30 days
 - Surface disagreement when it matters
 - Do not force synthetic consensus
 

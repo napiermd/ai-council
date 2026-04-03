@@ -1,0 +1,39 @@
+name: Weekly Voice Refresh
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 14 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Refresh recent voice signals
+        run: python scripts/refresh_recent_signals.py --window-days 30
+
+      - name: Create pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          commit-message: "Refresh recent voice signals"
+          title: "Refresh recent voice signals"
+          body: |
+            Automated weekly refresh of generated recent-signal files.
+
+            This updates:
+            - `signals/recent/*.md`
+            - `signals/summary.md`
+          branch: automation/weekly-voice-refresh
+          delete-branch: true

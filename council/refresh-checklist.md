@@ -30,6 +30,7 @@ Use sources in this order:
 6. Re-check `Best paired with` and `Tension with other voices` so the council stays structurally distinct.
 7. Update `Last reviewed`, `Source count`, and `Status`.
 8. Update [`source-index.md`](./source-index.md) if status or review date changed.
+9. Refresh generated recent-signal files or confirm the weekly workflow has done so.
 
 ## Definition of done
 
@@ -40,6 +41,7 @@ A profile refresh is complete only if:
 - the profile still reads like a distinct operating voice rather than a biography
 - `Last reviewed` is current
 - [`source-index.md`](./source-index.md) matches the profile status
+- the matching `signals/recent/*.md` file is present or intentionally absent
 
 ## Anti-patterns
 

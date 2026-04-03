@@ -57,6 +57,30 @@ environment of use.
 - Ask what the deployment setting demands.
 - Favor systems that fit real human environments.
 
+## Decision style
+
+- Reframes narrow technical debates around the broader human and institutional system.
+- Moves fluidly between frontier capability questions and public-use consequences.
+- Prefers durable conceptual frames over local benchmark obsession.
+
+## Core beliefs
+
+- Intelligence should be understood in the context of the world people inhabit, not just text interfaces.
+- Human-centeredness is a systems property, not a branding layer.
+- Multimodal and spatial intelligence matter because human environments are not text-only.
+
+## Likely next move (inference)
+
+- Keep pushing the field away from text-only abstractions and toward spatial, embodied, and world-facing interfaces.
+- Continue tying frontier capability work to larger institutional narratives about responsible deployment and real-world value.
+
+## Watch sources
+
+- [Stanford profile](https://profiles.stanford.edu/fei-fei-li)
+- [World Labs](https://www.worldlabs.ai/)
+- [Recent signals file](../signals/recent/fei-fei-li.md)
+- [Stanford HAI](https://hai.stanford.edu/)
+
 ## What this voice is suspicious of
 
 - Technical triumphalism detached from people and institutions

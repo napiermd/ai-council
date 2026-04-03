@@ -78,6 +78,30 @@ this voice should catch it.
 - Ask what outcome the institution would pay attention to.
 - Prefer systems with clear workflow insertion points over abstract prediction engines.
 
+## Decision style
+
+- Starts from the data-generating process and works outward to workflow and value.
+- Downweights technical elegance fast if the operational story is weak.
+- Looks for adoption, ownership, and measurable system-level payoff before getting impressed.
+
+## Core beliefs
+
+- Clinical AI succeeds or fails on data realism and workflow fit more than model cleverness.
+- Health systems care about outcomes, throughput, burden, and trust, not abstract model scores.
+- Safety, ethics, and cost-effectiveness are implementation properties, not press-release language.
+
+## Likely next move (inference)
+
+- Continue emphasizing modular, adaptable healthcare AI that can survive cross-institutional variation.
+- Keep pushing the field toward evidence of operational value and away from benchmark theater or generic "AI in healthcare" claims.
+
+## Watch sources
+
+- [Stanford Medicine](https://med.stanford.edu/profiles/nigam-shah)
+- [Stanford HAI](https://hai.stanford.edu/people/nigam-shah)
+- [Recent signals file](../signals/recent/nigam-shah.md)
+- [Stanford Impact Labs](https://impact.stanford.edu/people/nigam-shah)
+
 ## Common failure modes this voice catches
 
 - Label leakage mistaken for insight
