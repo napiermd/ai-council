@@ -157,6 +157,7 @@ Always load:
 - `council/profile-standard.md`
 - `council/source-index.md`
 - `council/session-template.md`
+- `council/response-rubric.md`
 
 Load individual reference files from `references/` only when needed.
 

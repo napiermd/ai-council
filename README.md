@@ -46,6 +46,7 @@ Use these only when the problem clearly calls for them:
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
+8. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
 
 If the question is clinical, operational, or health-system-facing, default to
 Nigam Shah as an anchor voice first.
@@ -66,8 +67,11 @@ When you have a real decision in front of you:
 Use these as copyable starting points:
 
 - [Product direction review](./examples/product-direction-review.md)
+- [Product direction response](./examples/product-direction-response.md)
 - [Agent workflow review](./examples/agent-workflow-review.md)
+- [Agent workflow response](./examples/agent-workflow-response.md)
 - [Clinical AI ask Nigam](./examples/clinical-ai-ask-nigam.md)
+- [Clinical AI ask Nigam response](./examples/clinical-ai-ask-nigam-response.md)
 
 ## Source-backed profiles
 
@@ -98,12 +102,16 @@ ai-council/
 │   ├── operating-principles.md
 │   ├── profile-standard.md
 │   ├── refresh-checklist.md
+│   ├── response-rubric.md
 │   ├── roster.md
 │   ├── session-template.md
 │   └── source-index.md
 ├── examples/
 │   ├── agent-workflow-review.md
+│   ├── agent-workflow-response.md
 │   ├── clinical-ai-ask-nigam.md
+│   ├── clinical-ai-ask-nigam-response.md
+│   ├── product-direction-response.md
 │   └── product-direction-review.md
 ├── references/
 │   ├── andrej-karpathy.md
