@@ -46,7 +46,7 @@ Use these only when the problem clearly calls for them:
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
-8. Use [`council/rating-scale.md`](./council/rating-scale.md) when you want the council to act like a review panel instead of a discussion group.
+8. Use [`council/rating-scale.md`](./council/rating-scale.md) when you want the council to act like a review panel with independent scores and a final argument section.
 9. Use [`council/response-rubric.md`](./council/response-rubric.md) to judge whether the council answer is actually good.
 10. Use [`council/deployment-guide.md`](./council/deployment-guide.md) and the files in [`packs/`](./packs/) when you want to use the council from another repo.
 11. Use [`signals/`](./signals/) when you need a last-30-days recency layer instead of only the hand-authored profiles.
@@ -64,7 +64,8 @@ When you have a real decision in front of you:
 2. Pick a mode from [`council/invocation-patterns.md`](./council/invocation-patterns.md).
 3. If the problem is clinical, start with [`council/ask-nigam.md`](./council/ask-nigam.md).
 4. If you want judgment, use [`council/rating-scale.md`](./council/rating-scale.md) and ask for `rating mode`.
-5. Load only the voices needed for that question.
+5. If you want the voices to challenge each other instead of only scoring in parallel, ask for a `council meeting`.
+6. Load only the voices needed for that question.
 
 ## Session packs
 

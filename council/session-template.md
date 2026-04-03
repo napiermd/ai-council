@@ -66,9 +66,10 @@ The best council answer should return:
 1. `Situation`
 2. `Active voices`
 3. `Core tension`
-4. `Voice scorecard`
-5. `Recommendation`
-6. `Next move`
+4. `Independent scorecard`
+5. `Council meeting`
+6. `Recommendation`
+7. `Next move`
 
 ## Review mode add-on
 
@@ -77,12 +78,15 @@ discussion, add this line:
 
 ```text
 Use rating mode. I want each active voice to give:
-- an overall rating out of 5
+- an overall rating out of 10
 - a short explanation
 - one thing to keep
 - one thing to fix
 
-Then give me a council synthesis and tell me whether this is ready.
+Then give me:
+- a council meeting section where they argue with each other
+- a final recommendation
+- whether this is ready
 ```
 
 ## Prompting tips

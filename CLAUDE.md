@@ -30,6 +30,7 @@ Default output pattern:
 1. Situation
 2. Active voices
 3. Core tension
-4. Voice scorecard
-5. Recommendation
-6. What to do next
+4. Independent scorecard
+5. Council meeting
+6. Recommendation
+7. What to do next

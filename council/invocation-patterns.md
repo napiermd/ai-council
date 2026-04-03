@@ -16,12 +16,13 @@ Show me the main disagreement, then tell me what to do next.
 Use the AI Council to review this draft in rating mode.
 Activate only the 3-5 voices that matter.
 For each voice, give:
-- an overall rating out of 5
+- an overall rating out of 10
 - a short why
 - one thing to keep
 - one thing to fix
 
 Then give me:
+- a council meeting section where they argue with each other
 - the council range
 - whether this is ready to submit
 - the single best next revision move
