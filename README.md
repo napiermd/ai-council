@@ -61,6 +61,14 @@ When you have a real decision in front of you:
 3. If the problem is clinical, start with [`council/ask-nigam.md`](./council/ask-nigam.md).
 4. Load only the voices needed for that question.
 
+## Example sessions
+
+Use these as copyable starting points:
+
+- [Product direction review](./examples/product-direction-review.md)
+- [Agent workflow review](./examples/agent-workflow-review.md)
+- [Clinical AI ask Nigam](./examples/clinical-ai-ask-nigam.md)
+
 ## Source-backed profiles
 
 The goal is not to imitate a person's brand voice. The goal is to distill
@@ -93,6 +101,10 @@ ai-council/
 │   ├── roster.md
 │   ├── session-template.md
 │   └── source-index.md
+├── examples/
+│   ├── agent-workflow-review.md
+│   ├── clinical-ai-ask-nigam.md
+│   └── product-direction-review.md
 ├── references/
 │   ├── andrej-karpathy.md
 │   ├── chip-huyen.md
