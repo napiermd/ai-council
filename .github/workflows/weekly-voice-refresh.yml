@@ -35,5 +35,6 @@ jobs:
             This updates:
             - `signals/recent/*.md`
             - `signals/summary.md`
+            - `signals/weekly-review.md`
           branch: automation/weekly-voice-refresh
           delete-branch: true

@@ -113,6 +113,9 @@ The council now has a generated recency layer:
 - [`scripts/refresh_recent_signals.py`](./scripts/refresh_recent_signals.py)
 - [`.github/workflows/weekly-voice-refresh.yml`](./.github/workflows/weekly-voice-refresh.yml)
 
+Start with [`signals/weekly-review.md`](./signals/weekly-review.md) if you want
+the human-action digest rather than raw per-voice signal files.
+
 This is where last-30-days monitoring lives. It should inform the profiles, not replace them.
 
 ## Repository structure
@@ -164,6 +167,7 @@ ai-council/
 ├── signals/
 │   ├── README.md
 │   ├── summary.md
+│   ├── weekly-review.md
 │   └── recent/
 │       └── *.md
 └── .gitignore
