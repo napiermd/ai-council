@@ -72,6 +72,7 @@ scratch:
 - [Founder Product Pack](./packs/founder-product-pack.md)
 - [Agent Systems Pack](./packs/agent-systems-pack.md)
 - [Clinical AI Pack](./packs/clinical-ai-pack.md)
+- [Stanford Academic Pack](./packs/stanford-academic-pack.md)
 
 If you want to use the council from another project, start with the
 [deployment guide](./council/deployment-guide.md).
@@ -86,6 +87,10 @@ Use these as copyable starting points:
 - [Agent workflow response](./examples/agent-workflow-response.md)
 - [Clinical AI ask Nigam](./examples/clinical-ai-ask-nigam.md)
 - [Clinical AI ask Nigam response](./examples/clinical-ai-ask-nigam-response.md)
+- [Academic memo review](./examples/academic-memo-review.md)
+- [Academic memo response](./examples/academic-memo-response.md)
+- [Paper critique review](./examples/paper-critique-review.md)
+- [Class project review](./examples/class-project-review.md)
 
 ## Source-backed profiles
 
@@ -138,16 +143,21 @@ ai-council/
 │   ├── session-template.md
 │   └── source-index.md
 ├── examples/
+│   ├── academic-memo-response.md
+│   ├── academic-memo-review.md
 │   ├── agent-workflow-review.md
 │   ├── agent-workflow-response.md
+│   ├── class-project-review.md
 │   ├── clinical-ai-ask-nigam.md
 │   ├── clinical-ai-ask-nigam-response.md
+│   ├── paper-critique-review.md
 │   ├── product-direction-response.md
 │   └── product-direction-review.md
 ├── packs/
 │   ├── agent-systems-pack.md
 │   ├── clinical-ai-pack.md
-│   └── founder-product-pack.md
+│   ├── founder-product-pack.md
+│   └── stanford-academic-pack.md
 ├── data/
 │   └── voice_watchlist.json
 ├── references/
