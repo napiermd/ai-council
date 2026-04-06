@@ -1,20 +1,20 @@
 # Recent Signals Summary
 
-- Generated: 2026-04-03
+- Generated: 2026-04-06
 - Window: last 30 days
 
 | Voice | Recent items | Reviewed | Output |
 | --- | ---: | --- | --- |
-| Andrej Karpathy | 0 | 2026-04-03 | [recent/andrej-karpathy.md](recent/andrej-karpathy.md) |
-| Chip Huyen | 0 | 2026-04-03 | [recent/chip-huyen.md](recent/chip-huyen.md) |
-| Chris Olah | 0 | 2026-04-03 | [recent/chris-olah.md](recent/chris-olah.md) |
-| Demis Hassabis | 0 | 2026-04-03 | [recent/demis-hassabis.md](recent/demis-hassabis.md) |
-| Fei-Fei Li | 0 | 2026-04-03 | [recent/fei-fei-li.md](recent/fei-fei-li.md) |
-| Jeremy Howard | 0 | 2026-04-03 | [recent/jeremy-howard.md](recent/jeremy-howard.md) |
+| Andrej Karpathy | 91 | 2026-04-03 | [recent/andrej-karpathy.md](recent/andrej-karpathy.md) |
+| Chip Huyen | 4 | 2026-04-03 | [recent/chip-huyen.md](recent/chip-huyen.md) |
+| Chris Olah | 1 | 2026-04-03 | [recent/chris-olah.md](recent/chris-olah.md) |
+| Demis Hassabis | 100 | 2026-04-03 | [recent/demis-hassabis.md](recent/demis-hassabis.md) |
+| Fei-Fei Li | 9 | 2026-04-03 | [recent/fei-fei-li.md](recent/fei-fei-li.md) |
+| Jeremy Howard | 38 | 2026-04-03 | [recent/jeremy-howard.md](recent/jeremy-howard.md) |
 | Jonathan H. Chen | 0 | 2026-04-03 | [recent/jonathan-chen.md](recent/jonathan-chen.md) |
-| Nigam Shah | 0 | 2026-04-03 | [recent/nigam-shah.md](recent/nigam-shah.md) |
-| Pete Steinberger | 0 | 2026-04-03 | [recent/pete-steinberger.md](recent/pete-steinberger.md) |
-| Yann LeCun | 0 | 2026-04-03 | [recent/yann-lecun.md](recent/yann-lecun.md) |
+| Nigam Shah | 3 | 2026-04-03 | [recent/nigam-shah.md](recent/nigam-shah.md) |
+| Pete Steinberger | 98 | 2026-04-03 | [recent/pete-steinberger.md](recent/pete-steinberger.md) |
+| Yann LeCun | 53 | 2026-04-03 | [recent/yann-lecun.md](recent/yann-lecun.md) |
 
 ## Notes
 

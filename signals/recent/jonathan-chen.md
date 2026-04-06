@@ -1,6 +1,6 @@
 # Recent Signals: Jonathan H. Chen
 
-- Generated: 2026-04-03
+- Generated: 2026-04-06
 - Window: last 30 days
 - Profile: [references/jonathan-chen.md](../../references/jonathan-chen.md)
 
@@ -16,8 +16,4 @@ Treat this file as recent public context, not as the canonical statement of the 
 - [Stanford Profiles](https://profiles.stanford.edu/jonc101)
 - [Academic page](http://web.stanford.edu/~jonc101)
 - [Stanford publications](https://profiles.stanford.edu/jonc101)
-
-## Refresh notes
-
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
 
