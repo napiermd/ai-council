@@ -107,6 +107,15 @@ The `Council meeting` section should:
 - The recommendation ignores constraints
 - The next step is vague, inflated, or research-theater
 
+## Grounding requirement
+
+All reviews in rating mode or draft review mode must follow the
+[Grounding Protocol](grounding-protocol.md):
+
+1. Each voice grounded in 2-3 of their actual publications (retrieved, not recalled)
+2. All cited literature in the work under review cross-referenced for accuracy
+3. Sourced evidence clearly separated from persona inference in every voice entry
+
 ## High-stakes adjustment
 
 If the question is clinical, regulated, or otherwise high-stakes:
@@ -115,3 +124,4 @@ If the question is clinical, regulated, or otherwise high-stakes:
 - anchor on the domain-reality voice first
 - be explicit about uncertainty
 - prefer validation steps over big claims
+- apply the grounding protocol strictly — no unverified citations pass
