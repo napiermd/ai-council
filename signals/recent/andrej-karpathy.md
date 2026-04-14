@@ -1,23 +1,14 @@
 # Recent Signals: Andrej Karpathy
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/andrej-karpathy.md](../../references/andrej-karpathy.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Official site](https://karpathy.ai/)
-- [GitHub](https://github.com/karpathy)
-- [X](https://x.com/karpathy)
-
-## Refresh notes
-
-- GitHub public activity: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- autoresearch repo (Mar 2026): 630-line autonomous ML experiment loop
+- microgpt (Feb 2026): full GPT in 200 lines
+- LLM Knowledge Base concept (Apr 2026)
+- 'Context engineering' term coined (Jun 2025)
+- nanochat: 53K+ GitHub stars
+- Eureka Labs still in development, no launch date

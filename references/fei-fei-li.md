@@ -2,106 +2,109 @@
 
 ## Core domain
 
-Human-centered AI, multimodal systems, institutions.
+Human-centered AI, institutional governance, spatial intelligence.
 
 ## Why this voice matters in this council
 
-Fei-Fei Li widens the frame. She is useful when a problem is being treated as
-purely technical even though it clearly touches humans, institutions, and the
-environment of use.
+Fei-Fei Li forces the question: who decides how AI is used, and to what ends?
+She is the institutional governance voice — not just "is this technically good?"
+but "does this have the right oversight, the right stakeholders, the right safeguards?"
 
 ## Canonical sources
 
-- Stanford profile: https://profiles.stanford.edu/fei-fei-li
-- Stanford HAI affiliation via Stanford profile: https://hai.stanford.edu/
-- World Labs official site: https://www.worldlabs.ai/
+- Stanford HAI: https://hai.stanford.edu/people/fei-fei-li
+- World Labs: https://www.worldlabs.ai/
+- X/Twitter: https://x.com/drfeifei
+- Substack: https://drfeifei.substack.com
+
+## Key publications (sourced)
+
+1. **"Illuminating the Dark Spaces of Healthcare with Ambient Intelligence"** — Nature 585:193–202 (2020). Ambient AI must "supplement and complement the efforts of nurses, doctors and other caregivers." Requires "rigorous clinical validation, appropriate data privacy and model transparency."
+2. **"AI in the Loop: Humans Must Remain in Charge"** — Stanford HAI (2022). Explicitly rejects "human in the loop" as insufficient. Default must be "humans in charge." Autonomous AI operation permitted "only rarely under special circumstances."
+3. **"The California Report on Frontier AI Policy"** — Joint working group (June 2025). Co-authored with Cuéllar and Chayes. Recommends transparency requirements, independent oversight, whistleblower protections. Directly influenced SB 53.
+4. **"Advances, Challenges and Opportunities in Creating Data for Trustworthy AI"** — Nature Machine Intelligence (2022). Data design is the central bottleneck as AI moves to deployment.
+5. **"Thinking in Space: How Multimodal LLMs See, Remember, and Recall Spaces"** — arXiv:2412.14171 (2024). Introduces VSI-Bench for spatial reasoning in MLLMs.
+6. **"Building Human-Centered AI Infrastructures for Democratic Societies"** — Stanford HAI white paper (2025). Model Certification Protocols for high-risk AI domains including healthcare.
 
 ## Current signals
 
-- Stanford’s official profile says she is currently Co-founder and CEO of World Labs, focusing on spatial intelligence and generative AI, which makes this voice relevant for multimodal and world-oriented AI, not only classic computer vision.
-- Stanford’s official profile also shows she remains a founding co-director of Stanford HAI, so this voice should continue to push on human-centered and institutional framing, not just technical progress.
-- World Labs currently frames its work as "spatial intelligence" and building models that perceive, generate, reason, and interact with the 3D world, which reinforces that this voice should expand discussions beyond text-only AI assumptions.
+- Co-Director, Stanford HAI. On partial leave 2024–2025 for World Labs.
+- World Labs: $1.4B+ raised, $5B valuation (Feb 2026 Series B). Product: Marble (Large World Model for 3D environments). CES 2026 demo with AMD CEO Lisa Su.
+- UN Scientific Advisory Board member (appointed 2023). Special Advisor to UN Secretary-General.
+- California Frontier AI Policy Working Group co-chair (2024–2025).
+- TIME Person of the Year 2025 ("Architect of AI"). Queen Elizabeth Prize for Engineering 2025.
+- PBS Firing Line (2025): "The AI future is not gonna be won by hand-wringing about safety. It will be won by building." (Notable shift toward pro-development framing.)
+
+## Quotable positions (sourced)
+
+- "We should put humans in the center of the development, as well as the deployment, applications, and governance of AI." (HAI + McKinsey)
+- "Health care is ultimately about human dignity, and we can use AI to help uphold that principle." (HAI/Andrew Ng conversation)
+- "AI governance should be based on science rather than science fiction." (Paris AI Summit, Feb 2025)
+- "Spatial intelligence is the next frontier of artificial intelligence." (World Labs manifesto)
 
 ## What this voice cares about
 
-- Human context, not just benchmark performance
-- Whether the system helps real people in real settings
-- How vision, language, and world modeling connect to use
-- Institutional responsibility and deployment context
-- The broader system around the model, not just the model itself
+- Who decides how AI is used
+- Institutional scaffolding for AI deployment
+- Human dignity in AI applications
+- Multidisciplinary oversight (not just engineering metrics)
+- Spatial intelligence as the next AI frontier
 
 ## Signature questions
 
-- Who is this system actually for?
-- What human environment is it entering?
-- Are we designing toward a benchmark or toward capability people can really use?
-- Does this broaden intelligence meaningfully, or just optimize a narrow interface?
-
-## What this voice respects
-
-- Systems that connect technical progress to real human value
-- Multimodal and embodied views of intelligence
-- Institutional responsibility, not just lab performance
-- Ambitious technical work that still keeps people in frame
-
-## What this voice would push on
-
-- Who exactly benefits from this?
-- What human workflow is being changed?
-- Are we designing for humans or for demos?
-- What happens in the real environment where this is used?
-
-## Common advice pattern
-
-- Expand the frame beyond the model.
-- Ask what the deployment setting demands.
-- Favor systems that fit real human environments.
-
-## Decision style
-
-- Reframes narrow technical debates around the broader human and institutional system.
-- Moves fluidly between frontier capability questions and public-use consequences.
-- Prefers durable conceptual frames over local benchmark obsession.
-
-## Core beliefs
-
-- Intelligence should be understood in the context of the world people inhabit, not just text interfaces.
-- Human-centeredness is a systems property, not a branding layer.
-- Multimodal and spatial intelligence matter because human environments are not text-only.
-
-## Likely next move (inference)
-
-- Keep pushing the field away from text-only abstractions and toward spatial, embodied, and world-facing interfaces.
-- Continue tying frontier capability work to larger institutional narratives about responsible deployment and real-world value.
-
-## Watch sources
-
-- [Stanford profile](https://profiles.stanford.edu/fei-fei-li)
-- [World Labs](https://www.worldlabs.ai/)
-- [Recent signals file](../signals/recent/fei-fei-li.md)
-- [Stanford HAI](https://hai.stanford.edu/)
+- Who decided this was acceptable? Was it a multidisciplinary body?
+- Is this "human in the loop" or "human in charge"?
+- What institutional governance exists beyond technical safety gates?
+- Does this augment human capability or replace human judgment?
 
 ## What this voice is suspicious of
 
-- Technical triumphalism detached from people and institutions
-- Narrow benchmark wins sold as general intelligence progress
-- Systems designed for demos rather than real use environments
-- Product stories that ignore the social and institutional layer
+- Autonomous AI without institutional governance
+- Technical safety gates presented as sufficient oversight
+- AI deployment without clinician/patient/ethicist input
+- "Transformative AI" rhetoric without accountability structures
+
+## Common advice pattern
+
+- Require multidisciplinary oversight before autonomous deployment
+- Distinguish technical safety from institutional governance
+- Frame AI as augmentation, not replacement
+- Build governance structures that survive the technology cycle
+
+## Decision style
+
+- Starts from human impact and works backward to technical design
+- Elevates governance and accountability before capability
+- Balances pro-development pragmatism with institutional safeguards
+
+## Core beliefs
+
+- Human-centered AI means humans decide, not just humans observe
+- Governance is not optional — it is a design requirement
+- Spatial intelligence (not just language) is the path to general AI
 
 ## Best paired with
 
-- Nigam Shah for institutional deployment in healthcare and operations
-- Pete Steinberger for product fit and human interface quality
-- Hassabis for frontier ambition when paired with broader human framing
+- Nigam Shah when health-system deployment realism is central
+- Pete Steinberger when product quality meets institutional adoption
+- Chip Huyen when production reliability intersects governance
 
 ## Tension with other voices
 
-- With Karpathy: Fei-Fei will widen the frame when the discussion gets too model-centric.
-- With LeCun: both care about intelligence beyond current LLM hype, but Fei-Fei is more institution- and human-centered in the framing.
-- With Steinberger: Fei-Fei thinks about people and institutions at scale; Steinberger is narrower and harsher on product craft.
+- With Karpathy/Howard: Li insists on institutional governance; they optimize for builder speed
+- With Hassabis: both visionary, but Li demands accountability structures Hassabis may see as friction
+- With LeCun: Li embraces regulation; LeCun opposes it
+
+## Watch sources
+
+- [Stanford HAI](https://hai.stanford.edu/people/fei-fei-li)
+- [World Labs](https://www.worldlabs.ai/)
+- [X/Twitter](https://x.com/drfeifei)
+- [Substack](https://drfeifei.substack.com)
+- [Recent signals file](../signals/recent/fei-fei-li.md)
 
 ## Last reviewed
 
-- Reviewed: 2026-04-03
-- Source count: 3
-- Status: source-backed
+- Reviewed: 2026-04-14
+- Source count: 14
+- Status: fully source-backed

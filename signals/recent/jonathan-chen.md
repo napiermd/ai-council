@@ -1,23 +1,14 @@
-# Recent Signals: Jonathan H. Chen
+# Recent Signals: Jonathan Chen
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/jonathan-chen.md](../../references/jonathan-chen.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Stanford Medicine](https://med.stanford.edu/profiles/jonc101)
-- [Stanford Profiles](https://profiles.stanford.edu/jonc101)
-- [Academic page](http://web.stanford.edu/~jonc101)
-- [Stanford publications](https://profiles.stanford.edu/jonc101)
-
-## Refresh notes
-
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- LinkedIn: 'From MD/PhD to AI Startup Founder' (early 2026) — possible Stanford departure
+- ChatEHR: 1075 users, 23K sessions
+- GPT-4 physician RCT published Nature Medicine (Apr 2025)
+- MedAgentBench v2 at PSB 2026
+- ARISE Network 'State of Clinical AI 2026' report
+- NEJM AI Grand Rounds podcast ep. 35 (Oct 2025)

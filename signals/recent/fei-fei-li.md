@@ -1,22 +1,14 @@
-# Recent Signals: Fei-Fei Li
+# Recent Signals: Fei Fei Li
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/fei-fei-li.md](../../references/fei-fei-li.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Stanford profile](https://profiles.stanford.edu/fei-fei-li)
-- [World Labs](https://www.worldlabs.ai/)
-- [World Labs research](https://www.worldlabs.ai/)
-
-## Refresh notes
-
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- World Labs $1B Series B at $5B valuation (Feb 2026)
+- Marble product launched (Nov 2025), demoed at CES 2026
+- California Frontier AI Policy Report co-authored (Jun 2025)
+- PBS Firing Line: 'AI future won by building, not hand-wringing'
+- TIME Person of the Year 2025
+- On partial leave from Stanford for World Labs

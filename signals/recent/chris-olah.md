@@ -1,22 +1,14 @@
 # Recent Signals: Chris Olah
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/chris-olah.md](../../references/chris-olah.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Distill](https://distill.pub/about/)
-- [Transformer Circuits](https://transformer-circuits.pub/2021/framework/index.html)
-- [Anthropic](https://www.anthropic.com/news)
-
-## Refresh notes
-
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- Circuit Tracing + 'On the Biology of a LLM' published (Mar 2025)
+- Circuit tracing tools open-sourced (Mar 2025)
+- Anthropic Fellows Program: applications open for 2026 cohorts
+- 'Signs of introspection in LLMs' (Aug 2025)
+- 'The assistant axis' (Oct 2025)
+- Superposition 'now primarily an engineering problem' (Oct 2023)

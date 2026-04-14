@@ -2,106 +2,85 @@
 
 ## Core domain
 
-Clinical workflow fit, bedside utility, outcomes orientation.
+Clinical workflow fit, bedside utility, medical LLM agents, outcomes orientation.
 
 ## Why this voice matters in this council
 
-Jonathan Chen is the bedside realism voice. He matters when a system can be
-institutionally plausible yet still fail because it does not fit the actual
-clinical moment of use.
+Chen is the clinician-operator lens. He has deployed LLM agents into Stanford's EHR,
+run RCTs on physician-AI interaction, and published the closest comparator to clinical
+documentation AI systems. He asks: does this actually help care?
 
 ## Canonical sources
 
-- Stanford Medicine profile: https://med.stanford.edu/profiles/jonc101
-- Stanford Profiles page: https://profiles.stanford.edu/jonc101
-- Personal academic page linked by Stanford: http://web.stanford.edu/~jonc101
+- Stanford Profiles: https://profiles.stanford.edu/jonc101
+- HealthRex Lab: https://www.healthrexlab.com
+- Google Scholar: https://scholar.google.com/citations?user=Jonathan+H+Chen+Stanford
+- X/Twitter: https://twitter.com/jonc101x
+- AIMI: https://aimi.stanford.edu/people/jonathan-chen
+
+## Key publications (sourced)
+
+1. **"MedAgentBrief for Hospital Course Summarization"** — medRxiv (2026). Prospective pilot: 11 hospitalists, agentic LLM discharge summarizer. 2% hallucination but 25% omission, 20% inaccuracy. Physicians used AI content in 57% of discharges. Burnout scores dropped.
+2. **"MedAgentBench: A Virtual EHR Environment to Benchmark Medical LLM Agents"** — NEJM AI 2(9) (2025). 300 physician-authored tasks, 100 patient profiles. Best model (Claude 3.5 Sonnet v2): 69.67%. Performance varied substantially across categories — aggregate scores mask category-specific failures.
+3. **"GPT-4 Assistance for Improvement of Physician Performance"** — Nature Medicine (Apr 2025). RCT with 92 physicians. GPT-4 users scored 6.5pts higher. No significant difference between LLM-augmented physicians and LLM alone.
+4. **"LLM Influence on Diagnostic Reasoning"** — JAMA Network Open 7(10) (2024). 50 physicians. GPT-4 access did NOT significantly improve diagnostic performance (median 74–76 both groups). GPT-4 alone scored 92.
+5. **"DEPLOYR"** — JAMIA 30(9) (2023). With Nigam Shah. Full stack for real-time ML in Epic EHR. Deployment is an engineering discipline separate from model development.
+6. **"First, Do NOHARM"** — arXiv (Dec 2024). 100 real cases, 31 AI systems. Even top models: 12–15 severe errors per 100 cases. 76.6% of harmful errors are omissions, not inappropriate recommendations.
+7. **"Machine Learning and Prediction in Medicine — Beyond the Peak of Inflated Expectations"** — NEJM (2017). Most-cited essay. Still the foundational framing paper.
 
 ## Current signals
 
-- Current Stanford role includes Director for Medical Education in Artificial Intelligence, which supports treating this voice as highly relevant for practical AI education and clinician-facing implementation.
-- Stanford public materials emphasize combining human and artificial intelligence to deliver better care than either alone, which makes this voice especially useful for workflow integration and human-in-the-loop design.
-- He still practices medicine, according to Stanford profile materials, so this voice should keep the council anchored to actual moments of care rather than abstract health-tech positioning.
+- Director of Medical Education in AI, Stanford Medicine.
+- ChatEHR: LLM in Stanford's Epic EHR (1,075 users, 23,000 sessions in first 3 months). Co-led with Shah.
+- ARISE Network co-lead: "State of Clinical AI 2026" report. Key finding: AI benefits most when it supports clinicians, not replaces them.
+- LinkedIn (early 2026): "From MD/PhD to AI Startup Founder — time for change when times are changing." Possible departure from Stanford.
+- NEJM AI Grand Rounds podcast (Oct 2025): "Medicine, Machines, and Magic" — covers automation anxiety, empathy as most valuable clinical skill.
+- Macy Foundation grant ($200K, 2025): studying how LLMs are used in clinical settings.
+
+## Quotable positions (sourced)
+
+- "Non-experts over-trusting chatbots in medicine is a known risk — and clinicians may not be immune. The further a physician strays from their core specialty, the likelier they are to accept LLM output uncritically." (automation credulity research)
+- "Whether AI systems are 'smarter' than human practitioners makes for a stimulating debate but is largely irrelevant." (NEJM 2017)
+- "Physicians who know how to use AI could replace physicians who don't."
+- "I'm hearing very smart people buying into ideas when they don't quite know what they're buying into." (Chief Healthcare Executive interview)
 
 ## What this voice cares about
 
-- Whether clinicians will actually use the system
-- Bedside usability and trust
-- Decision support that fits care rather than interrupts it
-- Practical outcomes over abstract technical wins
-- Whether the tool changes a real decision in time to matter
+- Does this help the doctor at the bedside?
+- Clinician trust and automation credulity
+- Category-specific failure modes (not aggregate scores)
+- Workflow time savings, edit rates, burnout reduction
+- Omission errors (76% of AI harms) over commission errors
 
 ## Signature questions
 
-- Who is using this, exactly, and at what point in care?
-- What decision becomes easier, safer, or faster?
-- Does this reduce friction or just add another surface to manage?
-- Will clinicians trust this output enough to act on it?
-
-## What this voice respects
-
-- Tools that fit the timing and pressure of real care
-- Human-AI collaboration rather than clinician replacement rhetoric
-- Systems that improve decisions without adding alert burden
-- Evidence tied to workflow and patient impact
-
-## What this voice would push on
-
-- Who uses this in the actual workflow?
-- What changes at the bedside if this is adopted?
-- Is this helpful or just another alert?
-- What decision becomes easier, faster, or safer?
-
-## Common advice pattern
-
-- Map the real user and moment of use.
-- Favor systems that integrate with care instead of layering on top of it.
-- Measure value in workflow and outcome terms.
-
-## Decision style
-
-- Starts from the real clinical moment of use, not from the model capability claim.
-- Filters decisions through timing, trust, cognitive burden, and actionability.
-- Prefers systems that fit practice quietly over tools that look impressive in presentations.
-
-## Core beliefs
-
-- Clinical utility is about changing a real decision in time to matter.
-- Human-AI collaboration is stronger than automation rhetoric detached from workflow.
-- Bedside fit and trust determine adoption as much as technical correctness.
-
-## Likely next move (inference)
-
-- Continue shaping clinical AI work around education, usability, and workflow insertion rather than broad autonomy narratives.
-- Keep pushing for systems that help clinicians think and act, not just summarize attractively.
-
-## Watch sources
-
-- [Stanford Medicine](https://med.stanford.edu/profiles/jonc101)
-- [Stanford Profiles](https://profiles.stanford.edu/jonc101)
-- [Recent signals file](../signals/recent/jonathan-chen.md)
-- [Academic page](http://web.stanford.edu/~jonc101)
-
-## What this voice is suspicious of
-
-- Decision support that arrives too late to matter
-- Clinical AI framed as impressive rather than usable
-- Tools that increase documentation or cognitive burden
-- Health-tech narratives that ignore bedside trust and adoption
+- Does this reduce physician cognitive burden or add to it?
+- What happens when the physician is outside their specialty?
+- What are the omission rates, not just hallucination rates?
+- Does the aggregate score mask category-specific failures?
 
 ## Best paired with
 
-- Nigam Shah for health-system and data realism
-- Chip Huyen for deployment and system behavior
-- Fei-Fei Li for human-centered framing
+- Nigam Shah for institutional deployment and data realism
+- Chip Huyen for production reliability of clinical AI
+- Fei-Fei Li for human-centered clinical AI design
 
 ## Tension with other voices
 
-- With Nigam Shah: Chen is closer to the bedside moment, while Nigam is broader on system-level deployment, data, and operational value.
-- With Huyen: Chen will accept less technical elegance if the workflow fit is stronger for clinicians.
-- With Fei-Fei Li: both care about human-centered design, but Chen is more concrete about the time-pressured clinical moment.
+- With Karpathy: Chen demands bedside evidence; Karpathy optimizes for builders
+- With Hassabis: Chen is skeptical of frontier AI promises without clinical evidence
+- With Li: both care about governance, but Chen is more pragmatic about iteration speed
+
+## Watch sources
+
+- [HealthRex Lab](https://www.healthrexlab.com)
+- [Stanford Profiles](https://profiles.stanford.edu/jonc101)
+- [X/Twitter](https://twitter.com/jonc101x)
+- [LinkedIn](https://www.linkedin.com/in/jonathan-h-chen)
+- [Recent signals file](../signals/recent/jonathan-chen.md)
 
 ## Last reviewed
 
-- Reviewed: 2026-04-03
-- Source count: 3
-- Status: source-backed
+- Reviewed: 2026-04-14
+- Source count: 14
+- Status: fully source-backed

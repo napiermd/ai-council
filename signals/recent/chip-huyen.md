@@ -1,23 +1,13 @@
 # Recent Signals: Chip Huyen
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/chip-huyen.md](../../references/chip-huyen.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Official site](https://huyenchip.com/)
-- [GitHub](https://github.com/chiphuyen)
-- [Good AI List / OSS curation](https://huyenchip.com/2024/03/14/ai-oss.html)
-
-## Refresh notes
-
-- GitHub public activity: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- AI Engineering book: most-read on O'Reilly since launch
+- PyTorch Conference 2025: 'Coding with AI'
+- TEDAI San Francisco 2025 speaker
+- Tep Studio (founder/principal)
+- Common Pitfalls post (Jan 2025): 30-1000 human eval examples/day

@@ -1,23 +1,14 @@
 # Recent Signals: Jeremy Howard
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/jeremy-howard.md](../../references/jeremy-howard.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [fast.ai](https://www.fast.ai/)
-- [Answer.AI](https://www.answer.ai/)
-- [GitHub](https://github.com/jph00)
-
-## Refresh notes
-
-- GitHub public activity: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- Answer.AI shipping: FastHTML, ModernBERT (ACL 2025), FSDP+QDoRA
+- fast.ai merged into Answer.AI (Nov 2024)
+- Solveit course launched (Oct 2025, $10/mo)
+- ModernBERT: 4.3M+ monthly HuggingFace downloads
+- MedARC president (open medical foundation models)
+- SB-1047 opposition post (Apr 2024): regulate applications not models

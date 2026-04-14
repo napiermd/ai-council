@@ -1,22 +1,15 @@
 # Recent Signals: Demis Hassabis
 
-- Generated: 2026-04-03
-- Window: last 30 days
+- Generated: 2026-04-14
+- Window: last 90 days (deep research)
 - Profile: [references/demis-hassabis.md](../../references/demis-hassabis.md)
-
-Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- No recent automated signals captured in this window.
-
-## Manual watch sources
-
-- [Google DeepMind about](https://deepmind.google/about/)
-- [Google DeepMind news](https://deepmind.google/discover/blog/)
-- [Google DeepMind research](https://deepmind.google/research/)
-
-## Refresh notes
-
-- Google News: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-
+- Nobel Prize in Chemistry 2024
+- Gemini 3: 1501 Elo, top of LMArena
+- UK Automated AI Science Lab partnership (Dec 2025)
+- Davos 2026: AGI debate with LeCun and Amodei
+- 'The Infinity Machine' biography published (Apr 2026)
+- Fortune: 'Radical abundance — a new renaissance' (Feb 2026)
+- TIME 100 Most Influential 2025

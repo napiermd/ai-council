@@ -11,28 +11,34 @@ Use it to answer:
 
 ## Core voices
 
-| Voice | Status | Reviewed | Canonical sources |
-| --- | --- | --- | --- |
-| Andrej Karpathy | source-backed | 2026-04-03 | `karpathy.ai`, `github.com/karpathy` |
-| Fei-Fei Li | source-backed | 2026-04-03 | Stanford profile, Stanford HAI, World Labs |
-| Chris Olah | partially source-backed | 2026-04-03 | Distill, Transformer Circuits, Anthropic |
-| Yann LeCun | source-backed | 2026-04-03 | `yann.lecun.com`, NYU faculty, NYU news |
-| Jeremy Howard | source-backed | 2026-04-03 | fast.ai, Answer.AI |
-| Chip Huyen | source-backed | 2026-04-03 | `huyenchip.com`, Stanford CS329S, O'Reilly |
-| Pete Steinberger | source-backed | 2026-04-03 | GitHub, profile README, personal site |
-| Nigam Shah | source-backed | 2026-04-03 | Stanford Medicine, Stanford Profiles, Stanford Impact Labs |
+| Voice | Status | Reviewed | Sources | Key publications |
+| --- | --- | --- | --- | --- |
+| Andrej Karpathy | fully source-backed | 2026-04-14 | karpathy.ai, bearblog, GitHub, X | Software 2.0, Animals vs Ghosts, Verifiability, autoresearch |
+| Fei-Fei Li | fully source-backed | 2026-04-14 | Stanford HAI, World Labs, X, Substack | Nature 2020 (ambient intelligence), HAI "Humans in Charge", CA Frontier AI Report |
+| Chris Olah | fully source-backed | 2026-04-14 | transformer-circuits.pub, X, Google Scholar | Zoom In, Scaling Monosemanticity, Circuit Tracing, Biology of a LLM |
+| Yann LeCun | fully source-backed | 2026-04-14 | X (primary), Google Scholar, NYU | JEPA position paper, V-JEPA 2, LeJEPA. AMI Labs ($1B seed) |
+| Jeremy Howard | fully source-backed | 2026-04-14 | Answer.AI, fast.ai, X, GitHub | ULMFiT, ModernBERT, SB-1047 opposition |
+| Chip Huyen | fully source-backed | 2026-04-14 | huyenchip.com, O'Reilly, X | AI Engineering book, Common Pitfalls, Agents, Distribution Shifts |
+| Pete Steinberger | fully source-backed | 2026-04-14 | steipete.me, GitHub, X, Lex Fridman | Just Talk To It, Claude Code Is My Computer. Joined OpenAI Feb 2026 |
+| Nigam Shah | fully source-backed | 2026-04-14 | Stanford Medicine, Shah Lab, Google Scholar, CHAI | MedHELM, Recurring Local Validation, FURM, Delivery Science |
 
-Generated recent-signal files currently present for the full roster in `signals/recent/`.
+Generated recent-signal files present for the full roster in `signals/recent/`.
 
 ## Specialist extensions
 
-| Voice | Status | Reviewed | Canonical sources |
-| --- | --- | --- | --- |
-| Demis Hassabis | source-backed | 2026-04-03 | Google DeepMind about, research, main site |
-| Jonathan H. Chen | source-backed | 2026-04-03 | Stanford Medicine, Stanford Profiles, Stanford academic page |
+| Voice | Status | Reviewed | Sources | Key publications |
+| --- | --- | --- | --- | --- |
+| Demis Hassabis | fully source-backed | 2026-04-14 | Google DeepMind, X, Isomorphic Labs, Nobel Prize | AlphaFold 2/3, Nobel Lecture. AMI debate with LeCun |
+| Jonathan H. Chen | fully source-backed | 2026-04-14 | Stanford Profiles, HealthRex Lab, X, LinkedIn | MedAgentBrief, MedAgentBench, GPT-4 physician RCT, NOHARM |
+
+## Grounding protocol
+
+All profiles updated 2026-04-14 follow the [grounding protocol](grounding-protocol.md):
+- Each voice includes sourced publications with URLs
+- Quotable positions are attributed to specific works
+- Sourced evidence is separated from persona inference
 
 ## Notes
 
-- `source-backed` means the profile includes explicit first-party or official source anchors plus current-signal distillation.
-- `partially source-backed` means the profile is substantially grounded but still leans on a thinner official-source surface for some of the distillation.
-- If a profile is older than 90 days, refresh it before relying on `Current signals` heavily.
+- `fully source-backed` means the profile includes explicit publications, sourced quotes, and current-signal distillation from first-party and official sources.
+- If a profile is older than 90 days, refresh it before relying on `Current signals`.
