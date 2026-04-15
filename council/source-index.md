@@ -24,12 +24,18 @@ Use it to answer:
 
 Generated recent-signal files present for the full roster in `signals/recent/`.
 
+| Harrison Chase | fully source-backed | 2026-04-14 | blog.langchain.com, X, GitHub | Context engineering, Your Harness Your Memory, Ambient Agents, Deep Agents |
+| Percy Liang | fully source-backed | 2026-04-14 | CRFM, HELM, X, Google Scholar | HELM, MedHELM, FMTI, AutoBencher, Marin |
+
 ## Specialist extensions
 
 | Voice | Status | Reviewed | Sources | Key publications |
 | --- | --- | --- | --- | --- |
 | Demis Hassabis | fully source-backed | 2026-04-14 | Google DeepMind, X, Isomorphic Labs, Nobel Prize | AlphaFold 2/3, Nobel Lecture. AMI debate with LeCun |
 | Jonathan H. Chen | fully source-backed | 2026-04-14 | Stanford Profiles, HealthRex Lab, X, LinkedIn | MedAgentBrief, MedAgentBench, GPT-4 physician RCT, NOHARM |
+| Jan Leike | fully source-backed | 2026-04-14 | aligned.substack.com, X, Anthropic Alignment | InstructGPT, Weak-to-Strong, Alignment Auditing, RLHF |
+| Douwe Kiela | fully source-backed | 2026-04-14 | contextual.ai, X, Google Scholar | Original RAG paper, RAG 2.0, GLM |
+| Danielle Bitterman | fully source-backed | 2026-04-14 | bittermanlab.org, AIM Harvard, X | TRIPOD-LLM, Clinical-Grade Evaluation, hallucination severity data |
 
 ## Grounding protocol
 

@@ -19,14 +19,16 @@ tradeoffs explicit without getting lost in a crowd of interchangeable opinions.
 
 | Voice | Primary domain |
 | --- | --- |
-| Andrej Karpathy | Model intuition, training, LLM builders |
-| Fei-Fei Li | Human-centered AI, multimodal systems, institutions |
+| Andrej Karpathy | LLM builders, training intuition, model-product bridge |
+| Fei-Fei Li | Human-centered AI, institutional governance, spatial intelligence |
 | Chris Olah | Mechanistic interpretability, conceptual clarity |
-| Yann LeCun | Representation learning, architecture skepticism |
-| Jeremy Howard | Practical ML, fast iteration, applied workflows |
-| Chip Huyen | AI engineering, inference, deployment systems |
-| Pete Steinberger | Product quality, developer experience, shipping discipline |
+| Yann LeCun | World models, JEPA, architecture skepticism, open-source advocacy |
+| Jeremy Howard | Practical ML, fast iteration, democratization |
+| Chip Huyen | AI engineering, inference, evals, serving systems |
+| Pete Steinberger | Product quality, agentic engineering, shipping discipline |
 | Nigam Shah | Clinical AI, data realism, health-system deployment |
+| Harrison Chase | Agent orchestration, stateful workflows, context engineering |
+| Percy Liang | LLM evaluation science, benchmark design, accountability |
 
 ## Specialist extensions
 
@@ -36,6 +38,9 @@ Use these only when the problem clearly calls for them:
 | --- | --- |
 | Demis Hassabis | You need frontier strategy, long-horizon research direction, or capability-roadmap thinking. |
 | Jonathan H. Chen | You need bedside workflow realism, clinician adoption, and decision-support fit. |
+| Jan Leike | You need alignment science, scalable oversight, or to assess whether an autonomous system is gaming its evaluation. |
+| Douwe Kiela | You need to keep AI grounded in source documents, or understand retrieval-generation tradeoffs. |
+| Danielle Bitterman | You need a practicing physician's view on whether clinical AI evaluation actually protects patients. |
 
 ## How to use it
 
@@ -167,14 +172,21 @@ ai-council/
 │   ├── andrej-karpathy.md
 │   ├── chip-huyen.md
 │   ├── chris-olah.md
+│   ├── danielle-bitterman.md
 │   ├── demis-hassabis.md
+│   ├── douwe-kiela.md
 │   ├── fei-fei-li.md
+│   ├── harrison-chase.md
+│   ├── jan-leike.md
 │   ├── jeremy-howard.md
 │   ├── jonathan-chen.md
 │   ├── nigam-shah.md
+│   ├── percy-liang.md
 │   ├── pete-steinberger.md
 │   ├── voice-template.md
 │   └── yann-lecun.md
+├── reviews/
+│   └── 2026-04-14-sqs-paper-v4.md
 ├── scripts/
 │   └── refresh_recent_signals.py
 ├── signals/
@@ -199,9 +211,10 @@ ai-council/
 
 ## Next additions
 
-Likely next voices:
+Potential future voices:
 
-- Percy Liang for evaluation, benchmarks, and governance
 - Shreya Shankar for data quality and eval pipelines
 - Hamel Husain for agent workflows and operational evaluation
 - Dario Amodei for scaling laws and frontier deployment strategy
+- Gary Marcus for AI reliability skepticism and regulatory red-teaming
+- Alistair Johnson for clinical NLP benchmarks and EHR data realism (MIMIC)
