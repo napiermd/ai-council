@@ -1,5 +1,11 @@
 # Pete Steinberger
 
+> **Lean reference card.** For embodiment, full blog/OpenClaw/podcast
+> corpus, appearances, or positions, load the deep profile:
+> [`references/deep/pete-steinberger/`](./deep/pete-steinberger/)
+>
+> Start with `deep/pete-steinberger/embodiment.md` + `deep/pete-steinberger/voice.md`.
+
 ## Core domain
 
 Product quality, agentic engineering, developer experience, shipping discipline.
