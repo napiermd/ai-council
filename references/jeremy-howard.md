@@ -1,5 +1,11 @@
 # Jeremy Howard
 
+> **Lean reference card.** For embodiment, full course/library/paper
+> corpus, appearances, or positions, load the deep profile:
+> [`references/deep/jeremy-howard/`](./deep/jeremy-howard/)
+>
+> Start with `deep/jeremy-howard/embodiment.md` + `deep/jeremy-howard/voice.md`.
+
 ## Core domain
 
 Practical ML, fast iteration, applied evidence, AI democratization.
