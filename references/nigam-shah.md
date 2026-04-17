@@ -106,7 +106,7 @@ and operational outcomes instead of abstract promise.
 - [Shah Lab](https://shahlab.stanford.edu/)
 - [Google Scholar](https://scholar.google.com/citations?user=n63DmP8AAAAJ)
 - [LinkedIn](https://www.linkedin.com/in/nigam)
-- [X/Twitter](https://x.com/NigamShah)
+- [X/Twitter](https://x.com/drnigam)
 - [Recent signals file](../signals/recent/nigam-shah.md)
 
 ## Last reviewed

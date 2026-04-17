@@ -292,7 +292,7 @@ hashtags (#responsibleai, #healthcareai, #llm).
 - **Systematic-review post (2024):** "Current evaluations of LLMs in
   healthcare are sub-optimal (95% do not use real patient records!)"
 
-### X / Twitter (`@NigamShah`)
+### X / Twitter (`@drnigam`)
 Lower posting volume than LinkedIn. Primarily retweets/amplifies
 Stanford HAI, Stanford DBDS, CHAI, Shah Lab, NEJM AI. Reacts to hype
 with understatement, not dunking. Recurring quote vehicles: Brittany

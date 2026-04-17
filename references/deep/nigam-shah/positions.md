@@ -328,7 +328,7 @@ let the old one obsolete itself.
   attributed to a commenter (Jacob Reider) in Shah's LinkedIn thread,
   not Shah. Use the position freely; attribute the specific wording if
   challenged.
-- X/Twitter @NigamShah timeline not directly scraped; LinkedIn is higher
+- X/Twitter @drnigam timeline not directly scraped; LinkedIn is higher
   yield for his voice regardless.
 - Shah's private view of Epic's AI strategy: not found in public record.
   Papers and predictions are *structurally* critical of enterprise-

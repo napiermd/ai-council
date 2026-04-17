@@ -87,7 +87,7 @@ Ventures, 2025.)
 ## Personal
 
 Public profile is professional, not personal. Active on LinkedIn more
-than X. LinkedIn handle `/in/nigam`; X handle `@NigamShah`. Speaker
+than X. LinkedIn handle `/in/nigam`; X handle `@drnigam`. Speaker
 bureau listing (London Speaker Bureau). No TEDx or commencement
 speeches surfaced.
 

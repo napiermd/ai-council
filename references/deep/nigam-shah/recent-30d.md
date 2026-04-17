@@ -7,12 +7,17 @@
 
 ## Last refresh
 
-- **Date:** 2026-04-17
+- **Date:** 2026-04-17 (initial pass + handle correction)
 - **Window:** 2026-03-18 → 2026-04-17
-- **Sources queried:** Reddit, X (via @NigamShah handle + keyword
+- **Handle correction:** Initial pass used wrong handle `@NigamShah`.
+  Actual handle is **`@drnigam`** — https://x.com/drnigam.
+- **Sources queried:** Reddit, X (via @drnigam handle + keyword
   search), YouTube, Hacker News, Bluesky (failed 403), web
-- **Status:** **Sparse return.** 2 X posts confirmed; 0 Reddit/YouTube/HN
-  directly about Nigam Shah in window. Bluesky lookup failed.
+- **Status:** **Sparse / effectively empty.** Re-run with corrected
+  handle returned 0 X posts (Bird search errored out entirely). Initial
+  pass with wrong handle returned 2 X posts from @AtroposHealth (not
+  Shah directly). Either way, last30days is not yielding live Shah
+  signal in this window.
 
 ## Why the results were sparse — diagnosis
 
@@ -91,7 +96,7 @@ which is Shah's Green Button thesis in commercial form.
 
 ## What the last30days pass did NOT surface
 
-- No direct X posts from @NigamShah in the 30-day window were returned
+- No direct X posts from @drnigam in the 30-day window were returned
   by the research script. (Likely means either low posting frequency in
   the window or a platform-auth issue with the search. LinkedIn is his
   higher-yield channel; LinkedIn search was not part of the script.)
@@ -128,12 +133,12 @@ python3 /Users/andrewn/.claude/skills/last30days/scripts/last30days.py \
   --emit=compact \
   --no-native-web \
   --save-dir=~/Documents/Last30Days \
-  --x-handle=NigamShah
+  --x-handle=drnigam
 ```
 
 Then manually cross-check:
 - https://www.linkedin.com/in/nigam (primary channel)
-- https://x.com/NigamShah
+- https://x.com/drnigam
 - https://news.stanford.edu (search "Nigam Shah")
 - https://ai.nejm.org (new editorial-board activity)
 - https://chai.org (policy statements)
