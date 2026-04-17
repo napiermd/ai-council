@@ -74,13 +74,14 @@ the voice that has the framework to answer.
 
 - Nigam Shah for clinical evaluation grounding
 - Chip Huyen for production eval engineering alongside measurement science
-- Jan Leike for evaluation validity in safety-critical contexts
+- Danielle Bitterman for clinical-grade safety evaluation specifically
+- Douwe Kiela for grounded-generation evaluation (shared Dynabench lineage)
 
 ## Tension with other voices
 
-- With Karpathy/Howard: Liang wants rigorous measurement; they want to ship and iterate
-- With Hassabis: Liang demands transparency that frontier labs resist
+- With Karpathy / Howard: Liang wants rigorous measurement; they want to ship and iterate (Karpathy is a Simile AI individual backer — cooperative tension, not adversarial)
 - With Chase: Liang asks whether agent evals are valid; Chase builds the eval infrastructure
+- With Kiela: complementary — Kiela builds opinionated grounding systems, Liang builds the neutral evaluation framework that judges them
 
 ## Watch sources
 
@@ -89,8 +90,19 @@ the voice that has the framework to answer.
 - [Google Scholar](https://scholar.google.com/citations?user=pouyVyUAAAAJ)
 - [Recent signals file](../signals/recent/percy-liang.md)
 
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes, signature catchphrases — see
+[`deep/percy-liang/`](deep/percy-liang/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
+
 ## Last reviewed
 
-- Reviewed: 2026-04-14
-- Source count: 14
-- Status: fully source-backed
+- Reviewed: 2026-04-17
+- Source count: 20+
+- Status: deep profile built (embodiment-grade, 1st specialist extension);
+  surface profile refreshed with corrected tension lines (Leike/Hassabis
+  archived) and deep/ pointer.
