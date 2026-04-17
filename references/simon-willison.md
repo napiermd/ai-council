@@ -1,5 +1,11 @@
 # Simon Willison
 
+> **Lean reference card.** For embodiment, full blog/tool corpus,
+> appearances, or positions, load the deep profile:
+> [`references/deep/simon-willison/`](./deep/simon-willison/)
+>
+> Start with `deep/simon-willison/embodiment.md` + `deep/simon-willison/voice.md`.
+
 ## Core domain
 
 Pragmatic AI tooling, practitioner judgment, shipping in public, LLM security.
