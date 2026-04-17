@@ -1,5 +1,11 @@
 # Jonathan H. Chen
 
+> **Lean reference card.** For embodiment, full paper corpus,
+> appearances, or positions, load the deep profile:
+> [`references/deep/jonathan-chen/`](./deep/jonathan-chen/)
+>
+> Start with `deep/jonathan-chen/embodiment.md` + `deep/jonathan-chen/voice.md`.
+
 ## Core domain
 
 Clinical workflow fit, bedside utility, medical LLM agents, outcomes orientation.
