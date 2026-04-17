@@ -20,15 +20,14 @@ tradeoffs explicit without getting lost in a crowd of interchangeable opinions.
 | Voice | Primary domain |
 | --- | --- |
 | Andrej Karpathy | LLM builders, training intuition, model-product bridge |
-| Fei-Fei Li | Human-centered AI, institutional governance, spatial intelligence |
-| Chris Olah | Mechanistic interpretability, conceptual clarity |
-| Yann LeCun | World models, JEPA, architecture skepticism, open-source advocacy |
-| Jeremy Howard | Practical ML, fast iteration, democratization |
 | Chip Huyen | AI engineering, inference, evals, serving systems |
+| Jeremy Howard | Practical ML, fast iteration, democratization |
 | Pete Steinberger | Product quality, agentic engineering, shipping discipline |
+| Simon Willison | Pragmatic AI tooling, practitioner judgment, shipping in public |
 | Nigam Shah | Clinical AI, data realism, health-system deployment |
-| Harrison Chase | Agent orchestration, stateful workflows, context engineering |
-| Percy Liang | LLM evaluation science, benchmark design, accountability |
+| Jonathan H. Chen | Bedside workflow realism, clinician adoption, decision-support fit |
+| Danielle Bitterman | Practicing physician's view on whether clinical AI evaluation protects patients |
+| Douwe Kiela | Grounded generation, RAG, hallucination reduction |
 
 ## Specialist extensions
 
@@ -36,11 +35,14 @@ Use these only when the problem clearly calls for them:
 
 | Voice | Bring in when... |
 | --- | --- |
-| Demis Hassabis | You need frontier strategy, long-horizon research direction, or capability-roadmap thinking. |
-| Jonathan H. Chen | You need bedside workflow realism, clinician adoption, and decision-support fit. |
-| Jan Leike | You need alignment science, scalable oversight, or to assess whether an autonomous system is gaming its evaluation. |
-| Douwe Kiela | You need to keep AI grounded in source documents, or understand retrieval-generation tradeoffs. |
-| Danielle Bitterman | You need a practicing physician's view on whether clinical AI evaluation actually protects patients. |
+| Fei-Fei Li | You need human-centered AI, institutional governance, or spatial-intelligence framing. |
+| Harrison Chase | You need multi-agent state flow, memory, or human-in-the-loop checkpoint design. (Use knowing LangChain carries real framework-churn baggage.) |
+| Percy Liang | You need to know whether an evaluation is valid, comprehensive, and replicable. |
+| Ethan Mollick | You need an empirical read on whether real professionals will adopt the tool, and how their work changes when they do. |
+| Aidan Gomez | You need a founder-operator who has scaled a language-AI company through enterprise sales and multiple funding rounds. |
+| Bob Wachter | You need department-chair-level health-system implementation realism and institutional memory from the EHR-rollout era. |
+
+See `council/roster.md` for archived voices (LeCun, Olah, Leike, Hassabis) and the reasoning behind their removal.
 
 ## How to use it
 

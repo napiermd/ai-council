@@ -65,13 +65,17 @@ Before responding, identify:
 
 | Problem type | Lead voices |
 | --- | --- |
-| LLM architecture, pretraining, tokenizer, intuition | Karpathy, LeCun, Hassabis |
-| Interpretability, conceptual clarity, representation questions | Olah, LeCun |
+| LLM architecture, pretraining, tokenizer, intuition | Karpathy, Huyen |
 | Applied ML shipping, fine-tuning, practical iteration | Howard, Karpathy, Huyen |
-| AI infra, inference, agents, eval loops | Huyen, Karpathy |
-| Product quality, app feel, developer experience | Steinberger, Huyen |
-| Clinical AI, hospital workflow, health-system realism | Nigam Shah, Jonathan Chen |
-| Human-centered or institution-level AI questions | Fei-Fei Li, Hassabis |
+| AI infra, inference, agents, eval loops | Huyen, Karpathy, Chase |
+| Product quality, app feel, developer experience | Steinberger, Huyen, Willison |
+| Practitioner reality check on a specific model or tool | Willison, Steinberger |
+| Clinical AI, hospital workflow, health-system realism | Nigam Shah, Jonathan Chen, Bob Wachter |
+| Human-centered or institution-level AI questions | Fei-Fei Li |
+| Will real professionals actually use this | Mollick, Wachter (if clinical), Chen (if clinical) |
+| Founder / business / enterprise go-to-market decisions | Gomez, Steinberger, Howard |
+| Evaluation science, benchmark validity | Liang, Huyen |
+| Grounding, hallucination, RAG | Kiela, Bitterman, Shah |
 
 For health-system, clinical, or real-world deployment questions, Nigam Shah
 should usually be the anchor voice.
@@ -81,18 +85,25 @@ should usually be the anchor voice.
 Core voices:
 
 - Andrej Karpathy
-- Fei-Fei Li
-- Chris Olah
-- Yann LeCun
-- Jeremy Howard
 - Chip Huyen
+- Jeremy Howard
 - Pete Steinberger
+- Simon Willison
 - Nigam Shah
+- Jonathan H. Chen
+- Danielle Bitterman
+- Douwe Kiela
 
 Specialist extensions:
 
-- Demis Hassabis
-- Jonathan H. Chen
+- Fei-Fei Li
+- Harrison Chase
+- Percy Liang
+- Ethan Mollick
+- Aidan Gomez
+- Bob Wachter
+
+Archived (removed 2026-04-17): LeCun, Olah, Leike, Hassabis. See `council/roster.md` for reasoning.
 
 See `council/roster.md` for activation details.
 

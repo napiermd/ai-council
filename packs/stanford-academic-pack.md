@@ -5,15 +5,17 @@ paper critique, capstone framing, or project direction inside school.
 
 ## Default voices
 
-- Chris Olah
 - Fei-Fei Li
 - Jeremy Howard
+- Percy Liang
 
 Add Nigam Shah if the topic touches healthcare, clinical AI, operations, or
 real-world deployment in health systems.
-Add Yann LeCun if the argument depends on architectural skepticism or frontier
-theory.
+Add Andrej Karpathy if the argument depends on model-internals or architectural
+reasoning.
 Add Chip Huyen if the assignment is really about systems or deployment.
+Add Ethan Mollick if the paper is about AI's effect on knowledge work,
+education, or organizations.
 
 ## Best for
 
@@ -52,7 +54,7 @@ Add Chip Huyen if the assignment is really about systems or deployment.
 ```text
 Use the AI Council with the Stanford Academic Pack.
 
-I want Chris Olah, Fei-Fei Li, and Jeremy Howard active by default.
+I want Fei-Fei Li, Jeremy Howard, and Percy Liang active by default.
 Add another voice only if the question clearly needs it.
 
 Assignment or question:

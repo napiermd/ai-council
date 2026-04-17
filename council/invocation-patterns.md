@@ -53,8 +53,8 @@ Separate research risk from product risk.
 Recommended voices:
 
 - Karpathy
-- LeCun
-- Olah
+- Huyen
+- Willison (for a practitioner check against current model behavior)
 
 ## Agent or systems workflow
 
@@ -68,20 +68,34 @@ Recommended voices:
 - Huyen
 - Karpathy
 - Steinberger
+- Chase (if the question is really about orchestration primitives)
 
-## Frontier roadmap
+## Founder / business decision
 
 ```text
-Use the AI Council to review this long-horizon AI roadmap.
+Use the AI Council to pressure-test this founder decision.
+Focus on scope, pricing, sales motion, runway, and whether the bet is durable.
+```
+
+Recommended voices:
+
+- Gomez
+- Steinberger
+- Howard
+
+## Long-horizon direction
+
+```text
+Use the AI Council to review this long-horizon direction.
 Do not optimize for immediate shipping alone.
 Tell me whether this builds durable capability or just local wins.
 ```
 
 Recommended voices:
 
-- Hassabis
-- LeCun
 - Karpathy
+- Gomez
+- Fei-Fei Li (if institutional or governance framing is central)
 
 ## Clinical AI
 

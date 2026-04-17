@@ -9,7 +9,10 @@ specialization, orchestration, evaluation, or system complexity to introduce.
 - Andrej Karpathy
 - Pete Steinberger
 
-Add Chris Olah if the question is fundamentally about representational clarity.
+Add Harrison Chase if the question is fundamentally about orchestration
+primitives, memory, or multi-agent state flow.
+Add Simon Willison if you need a practitioner read on whether the pattern
+actually works with current models today.
 Add Jeremy Howard if the main issue is overbuilding versus shipping.
 
 ## Best for
