@@ -1,5 +1,11 @@
 # Andrej Karpathy
 
+> **Lean reference card.** For embodiment, frameworks, full corpus,
+> appearances, or positions, load the deep profile:
+> [`references/deep/andrej-karpathy/`](./deep/andrej-karpathy/)
+>
+> Start with `deep/andrej-karpathy/embodiment.md` + `deep/andrej-karpathy/voice.md`.
+
 ## Core domain
 
 LLM builders, training intuition, model-product bridge, AI education.
