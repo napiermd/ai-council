@@ -19,7 +19,7 @@ the retrieval-grounding layer.
 
 ## Key publications (sourced)
 
-1. **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"** — NeurIPS 2020. The original RAG paper. 6,000+ citations. Invented the architecture.
+1. **"Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"** — Lewis et al., NeurIPS 2020. Kiela is senior / last author (team lead); Patrick Lewis first author. **19,458 citations as of April 2026.** The architectural anchor for a deployment category.
 2. **"Introducing RAG 2.0"** — contextual.ai (2023). End-to-end trainable RAG. Replaces frozen components with jointly optimized retrieval-generation.
 3. **"Introducing the most grounded language model in the world" (GLM)** — contextual.ai (Mar 2025). 88% on FACTS benchmark vs GPT-4o 78.8%.
 4. **Agent Composer** — contextual.ai (Jan 2026). Multi-tool, multi-step orchestration for complex engineering workflows.
@@ -64,8 +64,8 @@ the retrieval-grounding layer.
 ## Tension with other voices
 
 - With Karpathy: Kiela says context > model; Karpathy focuses on model quality
-- With Hassabis: Kiela solves grounding pragmatically; Hassabis wants general world models
-- With LeCun: both skeptical of pure autoregressive approaches, but for different reasons
+- With Howard: both anti-hype, but Howard optimizes for builders / small models, Kiela for enterprise deployment
+- With Steinberger (if present): both care about system design; Kiela prioritizes grounding, Steinberger prioritizes distributed-systems reliability
 
 ## Watch sources
 
@@ -73,8 +73,19 @@ the retrieval-grounding layer.
 - [X/Twitter](https://x.com/douwekiela)
 - [Recent signals file](../signals/recent/douwe-kiela.md)
 
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes, signature analogies — see
+[`deep/douwe-kiela/`](deep/douwe-kiela/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
+
 ## Last reviewed
 
-- Reviewed: 2026-04-14
-- Source count: 8
-- Status: fully source-backed
+- Reviewed: 2026-04-17
+- Source count: 15+
+- Status: deep profile built (embodiment-grade); surface profile refreshed
+  with corrected RAG citation count (19,458) and Kiela's senior-author
+  position on the paper.
