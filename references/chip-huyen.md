@@ -1,5 +1,11 @@
 # Chip Huyen
 
+> **Lean reference card.** For embodiment, full book/blog corpus,
+> appearances, or positions, load the deep profile:
+> [`references/deep/chip-huyen/`](./deep/chip-huyen/)
+>
+> Start with `deep/chip-huyen/embodiment.md` + `deep/chip-huyen/voice.md`.
+
 ## Core domain
 
 AI engineering, inference systems, evals, serving, production ML.
