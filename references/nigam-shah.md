@@ -1,5 +1,11 @@
 # Nigam Shah
 
+> **Lean reference card.** For embodiment, frameworks, full paper corpus,
+> appearances, positions, or voice, load the deep profile:
+> [`references/deep/nigam-shah/`](./deep/nigam-shah/)
+>
+> Start with `deep/nigam-shah/embodiment.md` + `deep/nigam-shah/voice.md`.
+
 ## Core domain
 
 Clinical AI, real-world data, health-system deployment.
@@ -106,5 +112,7 @@ and operational outcomes instead of abstract promise.
 ## Last reviewed
 
 - Reviewed: 2026-04-14
+- Deep-profile added: 2026-04-17 (`references/deep/nigam-shah/`) — first
+  voice promoted to embodiment-grade. 9 files, ~5000 words, quote-sourced.
 - Source count: 12
 - Status: fully source-backed
