@@ -49,7 +49,7 @@ See `council/roster.md` for archived voices (LeCun, Olah, Leike, Hassabis) and t
 1. Open this repo in Claude Code or another coding agent.
 2. Read [`SKILL.md`](./SKILL.md) for council behavior.
 3. Read [`council/roster.md`](./council/roster.md) for the current voices.
-4. Pull in individual files from `references/` when a specific voice or domain is needed.
+4. Pull in individual files from `references/` when a specific voice or domain is needed. For embodiment-grade use (speaking *as* a voice), load from `references/deep/<voice>/` — start with `embodiment.md` + `voice.md`.
 5. Use [`council/profile-standard.md`](./council/profile-standard.md) when adding or revising voices.
 6. Use [`council/source-index.md`](./council/source-index.md) and [`council/refresh-checklist.md`](./council/refresh-checklist.md) to keep profiles current.
 7. Use [`council/session-template.md`](./council/session-template.md) and [`council/invocation-patterns.md`](./council/invocation-patterns.md) when you want to deploy the council on a live question.
@@ -170,23 +170,40 @@ ai-council/
 │   └── stanford-academic-pack.md
 ├── data/
 │   └── voice_watchlist.json
-├── references/
+├── references/                   # lean voice cards — quick load
+│   ├── aidan-gomez.md              (core add 2026-04)
 │   ├── andrej-karpathy.md
+│   ├── bob-wachter.md              (core add 2026-04)
 │   ├── chip-huyen.md
-│   ├── chris-olah.md
 │   ├── danielle-bitterman.md
-│   ├── demis-hassabis.md
 │   ├── douwe-kiela.md
+│   ├── ethan-mollick.md            (core add 2026-04)
 │   ├── fei-fei-li.md
 │   ├── harrison-chase.md
-│   ├── jan-leike.md
 │   ├── jeremy-howard.md
 │   ├── jonathan-chen.md
 │   ├── nigam-shah.md
 │   ├── percy-liang.md
 │   ├── pete-steinberger.md
+│   ├── simon-willison.md           (core add 2026-04)
 │   ├── voice-template.md
-│   └── yann-lecun.md
+│   │
+│   ├── chris-olah.md               (archived 2026-04-17)
+│   ├── demis-hassabis.md           (archived 2026-04-17)
+│   ├── jan-leike.md                (archived 2026-04-17)
+│   ├── yann-lecun.md               (archived 2026-04-17)
+│   │
+│   └── deep/                     # embodiment-grade profiles (load when speaking AS a voice)
+│       └── nigam-shah/             (first; 9 files, quote-sourced)
+│           ├── README.md
+│           ├── embodiment.md         # the persona-invocation file
+│           ├── voice.md              # verbatim quotes, analogies, banned phrases
+│           ├── biography.md
+│           ├── frameworks.md
+│           ├── publications.md
+│           ├── appearances.md        # podcasts + talks + media
+│           ├── positions.md          # strong stances + tensions + predictions
+│           └── recent-30d.md         # auto-refreshable signal window
 ├── reviews/
 │   └── 2026-04-14-sqs-paper-v4.md
 ├── scripts/
@@ -211,9 +228,64 @@ ai-council/
   health data, workflow, adoption, and institutional value.
 - Keep profiles source-backed and periodically refreshed.
 
-## Next additions
+## Embodiment-grade profiles (`references/deep/`)
 
-Potential future voices:
+Lean reference cards in `references/*.md` are the lookup cards. The `deep/`
+subdirectory holds embodiment-grade profiles — quote-sourced, multi-file
+dossiers that let an LLM accurately *speak as* the voice, not just cite
+them.
+
+Each deep profile contains:
+
+- `embodiment.md` — the persona-invocation file. Load this first.
+- `voice.md` — verbatim quotes, recurring analogies, banned phrases, cadence.
+- `frameworks.md` — named frameworks with mechanics and invocation contexts.
+- `publications.md` — paper corpus by theme.
+- `appearances.md` — podcasts, keynotes, media interviews with direct quotes.
+- `positions.md` — strong stances, tensions, predictions.
+- `biography.md` — career arc, roles, companies, awards.
+- `recent-30d.md` — auto-refreshable last-30-days signal window.
+- `README.md` — index and load order.
+
+**Built so far:**
+
+- `references/deep/nigam-shah/` (2026-04-17) — first voice. 9 files, ~2500 lines.
+
+**Next (in order of planned build):**
+
+- Andrej Karpathy — highest source-material yield (YouTube course corpus, bearblog, X, GitHub).
+- Chip Huyen — *AI Engineering* book + huyenchip.com.
+- Simon Willison — 20 years of daily blogging + `llm` CLI.
+- Pete Steinberger — blog + Pragmatic Engineer interview + Lex Fridman + OpenAI profile.
+- Jeremy Howard — fast.ai course + Answer.AI.
+- Jonathan Chen — Stanford profiles + HealthRex Lab.
+- Danielle Bitterman — bittermanlab.org + TRIPOD-LLM work.
+- Douwe Kiela — Contextual AI + RAG lineage.
+
+Specialist extensions (Fei-Fei Li, Chase, Liang, Mollick, Gomez, Wachter)
+built on demand.
+
+## Recent-signal automation — limitations
+
+The `last30days` skill (at `~/.claude/skills/last30days/`) covers Reddit,
+X, YouTube, Bluesky, Hacker News, TikTok, Instagram, Truth Social, and web.
+Known gaps:
+
+- **No LinkedIn coverage.** For voices whose primary channel is LinkedIn
+  (most clinical AI, many academic voices), results will be sparse.
+- **Reddit search depends on OpenAI Responses API with Codex auth.** Model
+  fallback chain can fail silently on certain accounts. When it does,
+  Reddit returns 0 threads.
+- **Bluesky auth** requires `BSKY_HANDLE` + `BSKY_APP_PASSWORD` env vars
+  (create at bsky.app/settings/app-passwords).
+- **TikTok/Instagram** require `SCRAPECREATORS_API_KEY`.
+
+For low-X/low-Reddit voices (Shah, Chen, Bitterman, Liang), direct
+WebFetch on LinkedIn, Stanford profiles, and NEJM/JAMA archives is the
+higher-yield approach. For heavy X/Reddit voices (Karpathy, Willison,
+Steinberger, Howard), the `last30days` skill is the right tool.
+
+## Potential future voices (not yet on roster)
 
 - Shreya Shankar for data quality and eval pipelines
 - Hamel Husain for agent workflows and operational evaluation
