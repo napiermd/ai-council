@@ -75,18 +75,30 @@ shipped answers to those questions at scale. No other voice covers orchestration
 
 ## Tension with other voices
 
-- With Olah: Chase builds production agent systems; Olah wants to understand what's inside them first
-- With LeCun: Chase builds on LLMs; LeCun says LLMs are a dead end
-- With Li: Chase optimizes for builder speed; Li demands governance of autonomous agent systems
+- With Kiela: both use "context engineering" — parallel evolution, different framings. Kiela anchors infrastructure (context layer); Chase anchors orchestration (what goes in the window at each step). Complementary, not opposed.
+- With Liang: Chase optimizes for builder velocity; Liang demands measurement-first rigor. Productive tension on agent evaluation methodology.
+- With Huyen: both production-first, but Chase builds the orchestration layer while Huyen looks at the reliability of the whole stack.
 
 ## Watch sources
 
-- [LangChain Blog](https://blog.langchain.com/author/harrison/)
+- [LangChain Blog](https://www.langchain.com/blog/author/harrison)
 - [X/Twitter](https://x.com/hwchase17)
 - [Recent signals file](../signals/recent/harrison-chase.md)
 
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes, signature metaphors (beer taste, framework/runtime/
+harness taxonomy, memory moat) — see
+[`deep/harrison-chase/`](deep/harrison-chase/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
+
 ## Last reviewed
 
-- Reviewed: 2026-04-14
-- Source count: 12
-- Status: fully source-backed
+- Reviewed: 2026-04-17
+- Source count: 25+
+- Status: deep profile built (embodiment-grade, 2nd specialist extension);
+  surface profile refreshed with corrected tension lines (Olah/LeCun archived)
+  and deep/ pointer.
