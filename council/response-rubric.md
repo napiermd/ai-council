@@ -23,6 +23,8 @@ The default answer should usually contain:
 5. `Council meeting`
 6. `Recommendation`
 7. `Next move`
+8. `Decision menu`
+9. `Pre-execution questions`
 
 ## Rating-mode structure
 
@@ -36,6 +38,74 @@ When the user is reviewing a draft, plan, or concrete proposal, prefer:
 6. `Council synthesis`
 7. `Recommendation`
 8. `Next move`
+9. `Decision menu`
+10. `Pre-execution questions`
+
+## Decision menu — required at the end of every substantive council answer
+
+Before the user says "go," the council must surface the execution tradespace
+as a short menu. Never dump a recommendation list and wait for
+"go ahead with all of them."
+
+The decision menu should offer **3-4 labeled execution paths plus an
+open option**:
+
+- **A. Full sequence** — execute all recommendations in dependency order. Name
+  the rough timeline. State the risk and reward.
+- **B. Critical path only** — the subset the council would execute if they had
+  to pick. Explicitly mark this as the default recommendation with a star.
+- **C. Single falsifiable experiment first** — the cheapest, most reversible
+  step that would confirm or falsify the council's diagnosis. Include a
+  pre-committed signal that resolves the experiment.
+- **D. Disagree with the assessment** — invite the user to name a voice or
+  recommendation they think is wrong. The council re-runs with their
+  pushback as input.
+- **E. Something else** — open field.
+
+Each path should have:
+
+- one-line description
+- timeline estimate
+- **Risk:** one line
+- **Reward:** one line
+
+Star the council's default recommended path so the user can execute with a
+single word ("B") if they trust the call.
+
+## Pre-execution questions — required before executing
+
+Before the council proceeds with any recommendation, it must ask the user
+3-5 concrete questions whose answers would change the plan. These are not
+rhetorical — they are actual gates.
+
+Good pre-execution questions are:
+
+- **Budget / cost ceilings** that constrain which paths are feasible
+- **Ownership** — who designs the rubric / who reviews the output / who signs
+  off on safety
+- **Sequencing vs parallelism** — does the user want to isolate variables or
+  parallelize execution
+- **Thresholds** — default values the council picked (10% divergence, n=75
+  floor, 2pt delta) that the user may have empirical grounds to override
+- **Business / clinical pressure** — is there a deadline, a stakeholder, or an
+  upstream commitment the council doesn't know about
+
+Bad pre-execution questions are:
+
+- Permission questions ("are you sure?")
+- Rhetorical questions the council already answered
+- Infinite-scope questions that don't actually change the plan
+
+**Explicit commit:** if any answer to a pre-execution question changes the
+recommendation, the council re-runs with the new inputs. Do not assume the
+user wants the first plan after they've corrected a premise.
+
+## gstack-style iteration pattern
+
+This mirrors the planning / office-hours interaction model: before deploying
+a large sequence, walk through options, ask concrete questions, confirm the
+plan, and deploy in iterative fashion. The council is a deployer of
+recommendations, not just a generator of them.
 
 Each voice entry should usually include:
 
