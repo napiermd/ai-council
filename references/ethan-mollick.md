@@ -105,13 +105,30 @@ shipping into physician workflows, this voice is load-bearing.
 
 ## Watch sources
 
-- [One Useful Thing newsletter](https://www.oneusefulthing.org)
-- [X/Twitter](https://twitter.com/emollick)
-- [Wharton Mack Institute](https://mackinstitute.wharton.upenn.edu)
-- Recent signals file: `signals/recent/ethan-mollick.md` (regenerate on demand)
+- [One Useful Thing newsletter](https://www.oneusefulthing.org) — ~426K subscribers
+- [X/Twitter](https://twitter.com/emollick) — ~343K followers, daily
+- [LinkedIn](https://www.linkedin.com/in/emollick/) — ~388K followers
+- [Wharton faculty](https://mgmt.wharton.upenn.edu/profile/emollick/)
+- [moreusefulthings.com](https://moreusefulthings.com) — with Lilach Mollick; free prompt library
+- Recent signals file: `signals/recent/ethan-mollick.md`
+
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes, analogies (intern / alien / wizard / centaur / cyborg),
+and the "jagged frontier" / "secret cyborgs" / "10-hour rule" /
+"invite AI to the table" canon — see
+[`deep/ethan-mollick/`](deep/ethan-mollick/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
 
 ## Last reviewed
 
 - Reviewed: 2026-04-17
-- Source count: 4 (mix of first-party and co-authored)
-- Status: needs-refresh for current-signals section; profile content hand-authored and not yet pass-verified against last-30-day sources
+- Source count: 20+ (book + papers + Substack + 30+ confirmed podcast and
+  conference appearances)
+- Status: deep profile built (embodiment-grade, 4th specialist extension);
+  surface profile refreshed with accurate follower counts (X 343K, LinkedIn
+  388K, Substack 426K), Wachter blurb, MGMT 8130 Vibefounding course, and
+  deep/ pointer.
