@@ -115,12 +115,27 @@ credibility on modern language models.
 ## Watch sources
 
 - [Cohere blog](https://cohere.com/blog)
-- [X/Twitter](https://twitter.com/aidangomez)
-- [Cohere for AI research](https://cohere.com/research)
-- Recent signals file: `signals/recent/aidan-gomez.md` (regenerate on demand)
+- [X/Twitter](https://twitter.com/aidangomez) — display name "Command A(idan)"
+- [LinkedIn](https://ca.linkedin.com/in/aidangomez) — 41K followers
+- [Cohere Labs](https://cohere.com/research) (rebranded from Cohere For AI, April 2025)
+- [aidangomez.ca](https://aidangomez.ca) — personal site
+- Recent signals file: `signals/recent/aidan-gomez.md`
+
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes ("prosaic not AGI," "it's also the dumbest," "quietly do
+good work," "acquisition is failure," "sovereignty means control") — see
+[`deep/aidan-gomez/`](deep/aidan-gomez/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
 
 ## Last reviewed
 
-- Reviewed: 2026-04-17
-- Source count: 5 (first-party company and co-authored paper)
-- Status: needs-refresh for current-signals section; profile content hand-authored and not yet pass-verified against last-30-day sources
+- Reviewed: 2026-04-18
+- Source count: 25+ (book/paper + podcasts + blog + 30-day window signals)
+- Status: deep profile built (embodiment-grade, 6th specialist extension,
+  completing the specialist queue); surface profile refreshed with updated
+  valuation ($7B+, $1.6B raised, $240M ARR), April 2026 Aleph Alpha merger
+  context, and deep/ pointer.
