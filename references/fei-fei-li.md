@@ -92,19 +92,36 @@ but "does this have the right oversight, the right stakeholders, the right safeg
 ## Tension with other voices
 
 - With Karpathy/Howard: Li insists on institutional governance; they optimize for builder speed
-- With Hassabis: both visionary, but Li demands accountability structures Hassabis may see as friction
-- With LeCun: Li embraces regulation; LeCun opposes it
+- With Liang: complementary — both at Stanford HAI (Liang directs CRFM within HAI). Both individual backers of Simile AI (Feb 2026). Both pro-open-source and pro-public-sector. Li frames at the governance / institutional layer; Liang at the benchmark / evaluation layer.
+- With Mollick: both on TIME 100 AI lists; both measured public voices on AI adoption; Li at the governance level, Mollick at the adoption / knowledge-work level.
+- With the clinical quad (Shah, Chen, Bitterman, Wachter): Li brings the human-centered-AI governance lens and the Stanford PAC / ambient-intelligence research corpus.
 
 ## Watch sources
 
 - [Stanford HAI](https://hai.stanford.edu/people/fei-fei-li)
 - [World Labs](https://www.worldlabs.ai/)
 - [X/Twitter](https://x.com/drfeifei)
-- [Substack](https://drfeifei.substack.com)
+- [Substack: The Maven Room](https://drfeifei.substack.com)
+- [Stanford Profiles](https://profiles.stanford.edu/fei-fei-li)
 - [Recent signals file](../signals/recent/fei-fei-li.md)
+
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes (North Star / fearless / pragmatic optimist / Cambrian
+sight), verbatim opinions on SB 1047, AGI-as-marketing, spatial
+intelligence, and ambient intelligence in healthcare — see
+[`deep/feifei-li/`](deep/feifei-li/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
 
 ## Last reviewed
 
-- Reviewed: 2026-04-14
-- Source count: 14
-- Status: fully source-backed
+- Reviewed: 2026-04-18
+- Source count: 25+ (book + papers + Substack + 15 podcasts + 8 talks +
+  5 op-eds)
+- Status: deep profile built (embodiment-grade, 5th specialist extension);
+  surface profile refreshed with updated tension lines (Hassabis and LeCun
+  archived from main roster), Substack name ("The Maven Room"), and
+  deep/ pointer.
