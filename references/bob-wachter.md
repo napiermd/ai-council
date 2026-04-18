@@ -29,10 +29,13 @@ medicine.
 
 ## Key publications (sourced)
 
-1. **"The Emerging Role of 'Hospitalists' in the American Health Care System"** (NEJM 1996, Wachter & Goldman) — defined hospitalist medicine as a specialty. Demonstrates track record of getting new categories adopted at scale.
-2. **The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age** (2015) — definitive operational account of the EHR rollout disaster and the gap between health-IT promises and frontline reality. Frequently cited in current AI-in-medicine discussions.
-3. **Understanding Patient Safety** (multiple editions, AHRQ textbook) — a primary reference in the patient-safety field.
-4. **Prolific academic publication record on hospital medicine, quality, and safety** — hundreds of peer-reviewed publications.
+1. **"The Emerging Role of 'Hospitalists' in the American Health Care System"** (NEJM 1996, Wachter & Goldman) — defined hospitalist medicine as a specialty.
+2. **The Digital Doctor: Hope, Hype, and Harm at the Dawn of Medicine's Computer Age** (2015) — NYT bestseller; definitive operational account of the EHR rollout and the gap between health-IT promises and frontline reality. Pablo Garcia 38.5-Septra-tablets case is the book's narrative spine.
+3. **A Giant Leap: How AI Is Transforming Healthcare and What That Means for Our Future** (Portfolio/Penguin, February 3, 2026) — instant national bestseller; ~105-expert interview methodology. Signature framing: AI as "co-pilot, not autopilot." Mollick blurbed. Wachter used Claude for "idea generation and wordsmithing."
+4. **"Will Generative Artificial Intelligence Deliver on Its Promise in Health Care?"** (JAMA 2024, with Erik Brynjolfsson) — published Nov 30, 2023, the one-year anniversary of ChatGPT. Qualified optimism; his canonical 2023 AI paper.
+5. **"Resolving the Productivity Paradox of Health IT"** (JAMA 2018, with Lee Goldman) — imported Brynjolfsson/Solow productivity paradox into healthcare.
+6. **Pattern Recognition Substack** (robertwachter.substack.com) — weekly cadence; key in-window post "Damn it, they're good" on Epic dominance (Apr 17, 2026).
+7. **Understanding Patient Safety** (multiple editions, with Kaveh Shojania then Kiran Gupta) — canonical patient-safety textbook.
 
 ## Current signals — needs-refresh
 
@@ -121,11 +124,25 @@ medicine.
 
 - [UCSF Profile](https://profiles.ucsf.edu/robert.wachter)
 - [X/Twitter](https://twitter.com/Bob_Wachter)
-- *The Digital Doctor* (book)
-- Recent signals file: `signals/recent/bob-wachter.md` (regenerate on demand)
+- [Substack "Pattern Recognition"](https://robertwachter.substack.com/)
+- [A Giant Leap (2026)](https://www.penguinrandomhouse.com/books/776443/a-giant-leap-by-robert-wachter-md/)
+- *The Digital Doctor* (2015)
+- Recent signals file: `signals/recent/bob-wachter.md`
+
+## Deep profile
+
+For embodiment-grade persona invocation — voice, frameworks, positions,
+signature quotes, the "compare-me-to-the-alternative" catchphrase,
+Waymo/cookie-licking kid/dachshund-vs-cinnamon-Danish analogies — see
+[`deep/bob-wachter/`](deep/bob-wachter/README.md).
+
+Nine files: README, embodiment, voice, biography, frameworks, publications,
+appearances, positions, recent-30d.
 
 ## Last reviewed
 
 - Reviewed: 2026-04-17
-- Source count: 4 (books, peer-reviewed, first-party)
-- Status: needs-refresh for current-signals section; profile content hand-authored and not yet pass-verified against last-30-day sources
+- Source count: 20+ (books, peer-reviewed, first-party Substack, podcasts, X)
+- Status: deep profile built (embodiment-grade, 3rd specialist extension);
+  surface profile refreshed with *A Giant Leap* (Feb 3, 2026), JAMA 2023
+  Brynjolfsson paper, Pattern Recognition Substack, and deep/ pointer.
