@@ -107,6 +107,69 @@ a large sequence, walk through options, ask concrete questions, confirm the
 plan, and deploy in iterative fashion. The council is a deployer of
 recommendations, not just a generator of them.
 
+## Interactive delivery — AskUserQuestion is required for Decision Menu and Pre-execution Questions
+
+The Decision Menu and each Pre-execution Question must be delivered through
+the `AskUserQuestion` tool so the user picks a concrete option by selection
+rather than by typing a free-form reply to a wall of inline text. Only
+**one** AskUserQuestion call at a time, then wait for the user's answer
+before asking the next one. This mirrors the gstack office-hours pattern
+and matches how every other interactive skill surfaces choices.
+
+### Decision menu AskUserQuestion format
+
+Each Decision Menu call must follow the 3-part structure adopted from
+gstack's AskUserQuestion contract:
+
+1. **Re-ground (1-2 sentences).** State the project, the specific decision
+   on the table, and whatever constraint the user already locked in during
+   this conversation (budget, timeline, stakeholder, etc.). The user has
+   loaded a lot of context into the conversation — the re-ground is the
+   council saying *we heard you, this is what we're asking about*.
+2. **Simplify.** Restate the decision in plain English. No voice jargon,
+   no internal rubric names, no "Pareto axis" unless the user introduced
+   that phrase. A smart reader with no prior council context should be
+   able to pick.
+3. **Recommend.** Include an explicit `RECOMMENDATION: Choose X because
+   Y` line. On each option, include a `Completeness: N/10` score where
+   10 = fully addresses the diagnosed problem, 7 = covers the critical
+   path only, 3 = defers most of the work. The council defaults to the
+   highest-completeness option unless a constraint the user has named
+   makes a lower-completeness option the right call.
+
+### Pre-execution questions format
+
+Each pre-execution question is its own AskUserQuestion call, sequentially,
+with concrete options the user can pick from. Never bundle four questions
+into one call. Never deliver pre-execution questions as a numbered inline
+list the user has to type answers to.
+
+Options should be concrete values, not meta-choices:
+- Good options: `$50/month`, `$200/month`, `no budget cap`, `other (specify)`
+- Good options: `7 days`, `14 days`, `30 days`, `other (specify)`
+- Bad options: `yes`, `no`, `maybe`, `whatever you recommend`
+
+If the user would need to answer in free-form (e.g., "who owns the
+rubric?"), still offer AskUserQuestion with one option being `other
+(specify)` rather than asking an open question in prose — the user can
+pick "other" and type the answer. This keeps the interactive surface
+consistent.
+
+### Why this is required
+
+Wall-of-text decision menus at the bottom of a long council answer are
+read once and skipped. The user has to re-scroll, hold six options in
+working memory, and type a reply. AskUserQuestion surfaces exactly one
+choice at a time with a small fixed number of options, which is the
+decision the user can actually make without re-reading the whole response.
+
+### Spawned / autonomous sessions
+
+If the council is being run inside an orchestrator session (OpenClaw,
+autonomous loop, batch agent), auto-choose the starred recommendation
+and note inline what the council picked on the user's behalf. Do not
+block an autonomous session on AskUserQuestion.
+
 Each voice entry should usually include:
 
 - `Rating`
