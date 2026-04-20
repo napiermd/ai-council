@@ -1,14 +1,25 @@
-# Recent Signals: Yann Lecun
+# Recent Signals: Yann LeCun
 
-- Generated: 2026-04-14
-- Window: last 90 days (deep research)
+- Generated: 2026-04-20
+- Window: last 30 days
 - Profile: [references/yann-lecun.md](../../references/yann-lecun.md)
+
+Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- LEFT META (late 2025). Founded AMI Labs (Paris).
-- AMI Labs $1.03B seed at $3.5B valuation (Mar 2026) — largest European seed ever
-- V-JEPA 2 published (Jun 2025): zero-shot robot control
-- LeJEPA: complete mathematical JEPA theory (Nov 2025)
-- Davos 2026: 'LLMs will never achieve humanlike intelligence'
-- April 2026: public X debate with Hassabis
+- 2026-04-20 | Tech Funding News | [GV, Nvidia back a four-month-old AI lab in a $500M raise: report - Tech Funding News](https://news.google.com/rss/articles/CBMilwFBVV95cUxOUm9OaWtmV09acGtzS0VYR3V4R2Vab2Nka1gwc1BEZFhuTzRxdmFHeENWTGpDbmZNblJBdFBUaXJzdXRLQ1JpYVF6TFhkdG1SaVhVNVpiUThIUGRGY2llQ2c4Y1lCVHp6SUcwbk12X01wUnFDakFUZkcyUGF4b0dldnU3ZmRFTUM4cnlTU19EUjMwbkRRVmNR?oc=5)
+- 2026-04-20 | The Times of India | [Godfather of AI and Meta's most popular ex-employee Yann LeCun says Anthropic CEO Dario Amodei 'knows abs - The Times of India](https://news.google.com/rss/articles/CBMi3gJBVV95cUxNMUpqRkZiOUNIeWU2MW15UnF6enREVFotSG1LSmZ2ellWRE10b21TRy1NQUZabURKNlhDNHF4UEZlOTYtNmpGWTBrZmNkUVdYWTZqcXlEQVUza1hDV1hNbkpzb19oVGtCM2JQeWJ2dGtURW5IbTFhc21uR2tsYk5xMHZEclAydHVWUlhOZEZfMmdyb1dYQzdJb2JBRVdmUThQMkhQQmRnRURGQ0JsbTBBeXdJVTZWV0pLYVBja0JWUjZjckdxMndiTzJ6ZGVza0lkel91ZDJqUzMwS1Q4bEd0bWFNS0tyMHktck9nNndGNEJlQ3NSRkMwZUF4aHlNb2xva1RFcV9xTXNYZWdxM3I2QTVXZUZ4N2luRTNPWkE3RHlXUjFqVVp2UlNCU3BVN0xTRXFUelN3WTZMcGZMUFRLdXd1VFdqSlROWF9ZTUUtTzQ3OFJoaXlJR1Y3QzJaQdIB4wJBVV95cUxOMkNJR29EenI2WTA5Q2JsZThrUUF0dERtZVU1SnAwWmVrY05qN2FVLWZjWndWaml3UnNydWVndVJuYU5Yd3BxWVA1dkdFeW1yX3NEUmtaTGdWbTJuQ1A3MXhMQV96dEZZMlF1S3ROVlVhSmVodkpyZURJSlZ5TjY4a2VhcGpGcHUtVDBMNDE2SFItZ0g5eG1ka3JDWkNvNVcwRE5OMW9aNnp2eng0V1lDcHNBbVQ1Q0tGUTM4dEdnLWVqR1pHdDlVc1pLN0FGSE1WM09UamxLeW0wR05Mb3NTWllQRlBwbjR4X1p5cWtwOHQySnhZVFl0LXFnQ1BsaFZ2Z0pudmczSHdPTE94OHVXdEdtQW1DeGE3Ym4zcXlYZzZSOWVmLVNwX040ejlfdmg0cThpeGs1SS1uNzMzMnRPb0ZIaHdCVG9QS2hUY2FUT3dObHVaZDF2UGlwSzZjZlZENlNj?oc=5)
+- 2026-04-20 | EdTech Innovation Hub | [Yann LeCun pushes back on LinkedIn as AI's world models credit row intensifies - EdTech Innovation Hub](https://news.google.com/rss/articles/CBMie0FVX3lxTFAyR2VBWmtMaHBaZVBNbk1DZUtPdHdVVkFudVNCbWlaSmV3a25TOFlWVDU0V056Q3E0UnhBaVhJNkVvbDR2VVE5clo3V01SZ1prakg3NjB2RGl1emNWMDFFcmVCR1MxU1pCYXA5OUdlVkl4cjF4ci1nc002SQ?oc=5)
+- 2026-04-19 | Forbes | [AI World Models: What Are They And Why Should You Care - Forbes](https://news.google.com/rss/articles/CBMirAFBVV95cUxQc3dnWE95ZVdfSGNrZXBwZkUydGdlUno5ZFhhdkVRUFhJWnQ3eGFkVUR6Q2hEbmMwdjAxUFYzeVVqMGJqZURQN1p0ZkpTdXRfYnQ5WnRWdnUyVU5NZkN6aEljRU01Q0Q0NEZHazFMekNZS2s2M1RZVGVULWkzN0ZTM1A1WXM2cDY0a09xMnRHQW9PWTZsSF9DdDM1dVJQYzRiZjFZS1lLU3hzZml2?oc=5)
+- 2026-04-19 | MSN | [Why Anthropic and everyone else 'scared' of the company's latest AI model Mythos are 'wrong,' says one of the world's biggest hackers - MSN](https://news.google.com/rss/articles/CBMirwNBVV95cUxOQUs1SXhUb1ZJRFc4MUNEMzhldGRJR0hlanlCckU2Qjk5RTJJOE1XQXU5TF8wTDVpTUFVOTFBaUZjSFZ0bDFaZklLQlFvX0NaTFc1NW9xS1pnYUhSQUk4dGFvdUtSb0R5czhFaE11Q1lFelg0Wm01bFFocXl3UnNaNVNNMDlHcG1SN1NPWE9lMDZmQVUtS2h5XzZRT0pJa3dVanpiVGxrNWZqMmpNelNONHd0S2RyNUpsRmptMHRmX1EwSk0xNk9MMWExN0hYRjNBQ2pBVHZXdGRPRG1ocmFBT2lzYno2ZzdYanNwb1Vub3hsV3dzb1FwbDdybUowa0R1aFAzSnpTaU53OTFXbFoweU53Vk9TNVEzbVhJU0R0MVBCTDg1N2g5SkR5elBWeURaSWI0ZS1KV2lMRkx2UDRzbUR4aUdBVGs2RHRpZXFLZ2Y2am1ROEZfbUxlY1A1ZFRkNGNkdXNVT2l5Tk5pSE1Ga0hadV9FR3BWRUpuTGhDV1ZfS1lFVzNhYmsyRlVfVGJvM2RhZmZBcnB6TzB2bFZsWGMxeHVYY0lXckJsSkxHQQ?oc=5)
+- 2026-04-19 | Business Today | [‘Dario is wrong, knows absolutely nothing...’: Yann LeCun slams Anthropic CEO over AI job loss warning - Business Today](https://news.google.com/rss/articles/CBMi9gFBVV95cUxQN0ZPMVA4ZW9iLW1wQW5xb3A5M2hCWTZHdlNsS2xObmJsM2lDQmtWN2NWZm1vdkJZVDhvYUFncHJZNk55ZEd0cTBpa1RleW9jMXdDbnpja0pPWEhwY1gzTExLMEwwazV1SXlyZ0RYZUhFeDVXaWZyTGsyVXlsdF9ZOTBkbDNxMnVseHpzMy1ic1FkbzdMODd6MEN6dmQzVTlJOWs2NHUwUTFQTFNlSG9Va1NCYWw2LWc4Z1JHbjNPaEViZGlua1ltdUh1aDQ3dDdObmxQdDlBZlFkY3FybEFQUXNCc1F6V0tjYVRXMlMzZzl5Z2g4T2fSAfYBQVVfeXFMUDdGTzFQOGVvYi1tcEFucW9wOTNoQlk2R3ZTbEtsTm5ibDNpQ0JrVjdjVmZtb3ZCWVQ4b2FBZ3ByWTZOeWRHdHEwaWtUZXlvYzF3Q256Y2tKT1hIcGNYM0xMSzBMMGs1dUl5cmdEWGVIRXg1V2lmckxrMlV5bHRfWTkwZGwzcTJ1bHh6czMtYnNRZG83TDg3ejBDenZkM1U5STlrNjR1MFExUExTZUhvVWtTQmFsNi1nOGdSR24zT2hFYmRpbmtZbXVIdWg0N3Q3Tm5sUHQ5QWZRZGNxcmxBUFFzQnNReldLY2FUVzJTM2c5eWdoOE9n?oc=5)
+- 2026-04-19 | Mint | [AI pioneer Yann LeCun rejects Anthropic’s 50 percent job loss prediction: 'Destructive and dangerous' - Mint](https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNDRvZVNzV2xocEpNdW1pMjRaLXlHREZLSlI0Znp5NlJmdUE3a3ZLRkxZUzVBczF4MWd2anc0OXBqX29PeXd4YUxGY1ZHRWpEM1hXd1NOVVdqZnh0MGp0NnM4TS01NU9MYmxqRzgxdGVPU3lLSWxkWlpFZW5mZjhTckdHXzkyNHpCOXlKTVhjYzJocGFDMDVXcXlJbXN3bHNpUjJKcjRHSklQT0U4UlVPMVBBNzhYdG1FVG9fSFpDRjl2ZVFnTU11MUo4NFJqa2dxRThHQ0pCek5rT3ltMmlJNTJISGNLN1AwQ1FpeW9YUlNKczFCVEZr0gH8AUFVX3lxTE5qSnhyMEF3MmFscUVOak5QWDVfLU84YllRMm04WXcyVUtxaDFFVGtEMUp0dHZyeVUteEd4TlltN3ZkS1IyZ0JYMml3TzB1WDJaaVZjME1RVndNdVRlVnFCVHUwRmRSaHpJOVlaUG1sVWJnRUZqSnNJVE1iT3NfaWh0M1BLbF9IdFlqaTRvY0lzeGpyRGpYbUt2NjBqSFcyaGZVTWlmRlV2TU5taXpkenkwOFdkM3ZFVm95TUg0ZDFhQlpkeFFrTUZ4dGcwRlhDQmJhTW9ZRDdRWF9WZF9HcWJjMWhleWhIM1FvcGdoWlJnZFY1VmxXOXF4RXg2RA?oc=5)
+- 2026-04-18 | MSN | [Former Meta AI pioneer Yann LeCun raises over $1 billion for new startup - MSN](https://news.google.com/rss/articles/CBMi2gJBVV95cUxQSjZmdWZaZzJoRS00YnhLSTZwd0lEVlVxSUlEX3cyMjBnVHQzc1hXVExOX2lST014dEZNTFdyNmVOWWJ2ZzZjN3U5eDNjQ1lFVVRHNkZHd2JoWC1wUFM3aDlkSWUtLWo2aUxJbXdsR1MxT2Y2OTluZlZqNUs5UDlDUGpDc1NRTENHMXdpZndDeXRneXc4TGktbWR3bVhrQVI5cDV1N2tqbzRKdlB0ckFVUEQ4QUk4cDJ5eXBqUmoyR3d4aVJnQkVoOG9KLTVmay13dEd2SURBOEZqUlhMYllHRGVOcm1FTzkwMHdWMXNvUEdRTmRFcW5BTHZaLTVnZEw4dkRsM1dvb09TamNNME1aTU54TEd2T3hxMEZJenN1UHZSOF80QVVyMEdMa3lCSHNodUlLRDBNZHJ1TnYxcUk3c2pFY0VmdFNIRHBOa3Q2S282Mm1RV1VpdlR3?oc=5)
+
+## Manual watch sources
+
+- [Official site](https://yann.lecun.com/)
+- [AMI Labs](https://ami-labs.org/)
+- [LinkedIn](https://www.linkedin.com/in/yann-lecun/)
+

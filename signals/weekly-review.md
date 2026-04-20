@@ -1,39 +1,37 @@
 # Weekly Voice Review
 
-- Generated: 2026-04-03
+- Generated: 2026-04-20
 - Window: last 30 days
 
 This file is the human-action digest for the weekly refresh.
 
 ## Needs human review now
 
-- Andrej Karpathy: 2 refresh errors
-- Chip Huyen: 2 refresh errors
-- Chris Olah: 1 refresh errors
-- Demis Hassabis: 1 refresh errors
-- Fei-Fei Li: 1 refresh errors
-- Jeremy Howard: 2 refresh errors
-- Jonathan H. Chen: 1 refresh errors
-- Nigam Shah: 1 refresh errors
-- Pete Steinberger: 2 refresh errors
-- Yann LeCun: 1 refresh errors
+- Andrej Karpathy: 65 recent items
+- Chip Huyen: 11 recent items
+- Chris Olah: 1 recent items
+- Demis Hassabis: 100 recent items
+- Fei-Fei Li: 9 recent items
+- Jeremy Howard: 36 recent items
+- Nigam Shah: 1 recent items
+- Pete Steinberger: 67 recent items
+- Yann LeCun: 43 recent items
 
 ## Voices with fresh recent items
 
-- No automated recent items captured in this run.
+- Andrej Karpathy: 65 recent items
+- Chip Huyen: 11 recent items
+- Chris Olah: 1 recent items
+- Demis Hassabis: 100 recent items
+- Fei-Fei Li: 9 recent items
+- Jeremy Howard: 36 recent items
+- Nigam Shah: 1 recent items
+- Pete Steinberger: 67 recent items
+- Yann LeCun: 43 recent items
 
 ## Refresh failures or weak spots
 
-- Andrej Karpathy: 2 refresh errors
-- Chip Huyen: 2 refresh errors
-- Chris Olah: 1 refresh errors
-- Demis Hassabis: 1 refresh errors
-- Fei-Fei Li: 1 refresh errors
-- Jeremy Howard: 2 refresh errors
-- Jonathan H. Chen: 1 refresh errors
-- Nigam Shah: 1 refresh errors
-- Pete Steinberger: 2 refresh errors
-- Yann LeCun: 1 refresh errors
+- No refresh errors captured in this run.
 
 ## Stale profiles
 

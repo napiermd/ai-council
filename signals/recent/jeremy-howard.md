@@ -1,14 +1,25 @@
 # Recent Signals: Jeremy Howard
 
-- Generated: 2026-04-14
-- Window: last 90 days (deep research)
+- Generated: 2026-04-20
+- Window: last 30 days
 - Profile: [references/jeremy-howard.md](../../references/jeremy-howard.md)
+
+Treat this file as recent public context, not as the canonical statement of the voice.
 
 ## Recent public signals
 
-- Answer.AI shipping: FastHTML, ModernBERT (ACL 2025), FSDP+QDoRA
-- fast.ai merged into Answer.AI (Nov 2024)
-- Solveit course launched (Oct 2025, $10/mo)
-- ModernBERT: 4.3M+ monthly HuggingFace downloads
-- MedARC president (open medical foundation models)
-- SB-1047 opposition post (Apr 2024): regulate applications not models
+- 2026-04-20 | GitHub | [PushEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [ReleaseEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [PushEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [PushEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [IssueCommentEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [IssueCommentEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [PushEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+- 2026-04-20 | GitHub | [PushEvent in AnswerDotAI/safepyrun](https://github.com/AnswerDotAI/safepyrun)
+
+## Manual watch sources
+
+- [fast.ai](https://www.fast.ai/)
+- [Answer.AI](https://www.answer.ai/)
+- [GitHub](https://github.com/jph00)
+
