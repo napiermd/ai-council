@@ -1,0 +1,541 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+SOURCE="${BASH_SOURCE[0]}"
+while [ -L "$SOURCE" ]; do
+  SOURCE_DIR="$(cd "$(dirname "$SOURCE")" && pwd)"
+  SOURCE="$(readlink "$SOURCE")"
+  [[ "$SOURCE" != /* ]] && SOURCE="$SOURCE_DIR/$SOURCE"
+done
+
+SCRIPT_DIR="$(cd "$(dirname "$SOURCE")" && pwd)"
+REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
+MAX_REVIEW_LINES="${AI_COUNCIL_MAX_REVIEW_LINES:-220}"
+
+usage() {
+  cat <<EOF
+AI Council CLI
+
+Usage:
+  ai-council help
+  ai-council doctor
+  ai-council list voices|packs|commands
+  ai-council prompt direct|roundtable|debate|rating|product|systems|clinical|nigam|paper|pr-review|sqs [question...]
+  ai-council review [--full|--lines N|--tail N] <path>
+  ai-council sqs-review [--full|--lines N|--tail N] <path>
+  ai-council install
+EOF
+}
+
+list_voices() {
+  find "$REPO_ROOT/references" -maxdepth 1 -type f -name "*.md" ! -name "voice-template.md" -print \
+    | xargs -n1 basename \
+    | sed 's/\.md$//' \
+    | sort
+}
+
+list_packs() {
+  find "$REPO_ROOT/packs" -maxdepth 1 -type f -name "*.md" -print \
+    | xargs -n1 basename \
+    | sed 's/\.md$//' \
+    | sort
+}
+
+list_commands() {
+  cat <<EOF
+/council
+/council-product
+/council-systems
+/council-clinical
+/ask-nigam
+/council-review
+/council-paper
+/council-pr-review
+/council-sqs
+EOF
+}
+
+with_question() {
+  local question="$1"
+  if [ -n "$question" ]; then
+    printf "\nQuestion:\n%s\n" "$question"
+  fi
+}
+
+resolve_target() {
+  local target="$1"
+  if [ -z "$target" ]; then
+    echo "Missing target path" >&2
+    exit 1
+  fi
+
+  if [ ! -e "$target" ]; then
+    echo "Target not found: $target" >&2
+    exit 1
+  fi
+
+  if command -v realpath >/dev/null 2>&1; then
+    realpath "$target"
+  else
+    cd "$(dirname "$target")" && printf "%s/%s\n" "$(pwd)" "$(basename "$target")"
+  fi
+}
+
+file_extension() {
+  local path="$1"
+  local base="${path##*/}"
+  if [[ "$base" == *.* ]]; then
+    printf "%s\n" "${base##*.}"
+  else
+    printf "text\n"
+  fi
+}
+
+render_file_context() {
+  local resolved_path="$1"
+  local mode="${2:-head}"
+  local limit="${3:-$MAX_REVIEW_LINES}"
+  local total_lines
+  total_lines="$(wc -l < "$resolved_path" | tr -d ' ')"
+  local ext
+  ext="$(file_extension "$resolved_path")"
+  local start_line=1
+  local end_line="$total_lines"
+  local label
+
+  case "$mode" in
+    full)
+      start_line=1
+      end_line="$total_lines"
+      label="1-$total_lines"
+      ;;
+    tail)
+      if [ "$limit" -lt "$total_lines" ]; then
+        start_line=$(( total_lines - limit + 1 ))
+      else
+        start_line=1
+      fi
+      end_line="$total_lines"
+      label="$start_line-$end_line"
+      ;;
+    *)
+      if [ "$limit" -lt "$total_lines" ]; then
+        end_line="$limit"
+      fi
+      label="$start_line-$end_line"
+      ;;
+  esac
+
+  cat <<EOF
+
+Artifact context:
+- Path: $resolved_path
+- Lines: $total_lines
+- Embedded lines: $label
+
+EOF
+
+  printf '```%s\n' "$ext"
+  nl -ba "$resolved_path" | sed -n "${start_line},${end_line}p"
+  printf '```\n'
+
+  if [ "$mode" != "full" ] && [ "$total_lines" -gt "$limit" ]; then
+    cat <<EOF
+
+Note:
+- This view is partial.
+- Use --full to embed the whole file, --lines N for the first N lines, or --tail N for the last N lines.
+EOF
+  fi
+}
+
+parse_review_args() {
+  REVIEW_MODE="head"
+  REVIEW_LIMIT="$MAX_REVIEW_LINES"
+  REVIEW_TARGET=""
+
+  while [ "$#" -gt 0 ]; do
+    case "$1" in
+      --full)
+        REVIEW_MODE="full"
+        shift
+        ;;
+      --lines)
+        REVIEW_MODE="head"
+        REVIEW_LIMIT="${2:-}"
+        if [ -z "$REVIEW_LIMIT" ]; then
+          echo "Missing value for --lines" >&2
+          exit 1
+        fi
+        shift 2
+        ;;
+      --tail)
+        REVIEW_MODE="tail"
+        REVIEW_LIMIT="${2:-}"
+        if [ -z "$REVIEW_LIMIT" ]; then
+          echo "Missing value for --tail" >&2
+          exit 1
+        fi
+        shift 2
+        ;;
+      --*)
+        echo "Unknown option: $1" >&2
+        exit 1
+        ;;
+      *)
+        REVIEW_TARGET="$1"
+        shift
+        if [ "$#" -gt 0 ]; then
+          echo "Unexpected extra arguments: $*" >&2
+          exit 1
+        fi
+        ;;
+    esac
+  done
+
+  case "$REVIEW_LIMIT" in
+    ''|*[!0-9]*)
+      echo "Review line limit must be a positive integer" >&2
+      exit 1
+      ;;
+  esac
+
+  if [ "$REVIEW_LIMIT" -le 0 ]; then
+    echo "Review line limit must be greater than zero" >&2
+    exit 1
+  fi
+
+  REVIEW_TARGET="$(resolve_target "$REVIEW_TARGET")"
+}
+
+prompt_direct() {
+  cat <<'EOF'
+Use the AI Council in direct mode.
+
+Load:
+- council/roster.md
+- council/session-template.md
+- council/invocation-patterns.md
+- council/response-rubric.md
+
+Activate 1 primary voice and at most 1 supporting voice.
+State the core tension, the recommendation, and the next move.
+EOF
+}
+
+prompt_roundtable() {
+  cat <<'EOF'
+Use the AI Council in roundtable mode.
+
+Load:
+- council/roster.md
+- council/session-template.md
+- council/invocation-patterns.md
+- council/response-rubric.md
+
+Activate 2-4 voices only.
+Show the real disagreement, then give a recommendation and the next move.
+EOF
+}
+
+prompt_debate() {
+  cat <<'EOF'
+Use the AI Council in debate mode.
+
+Load:
+- council/roster.md
+- council/session-template.md
+- council/invocation-patterns.md
+- council/response-rubric.md
+
+Pick the smallest set of voices that creates real tension.
+Do not flatten disagreement into consensus. End with the condition under which your recommendation holds.
+EOF
+}
+
+prompt_rating() {
+  cat <<'EOF'
+Use the AI Council in rating mode.
+
+Load:
+- council/roster.md
+- council/rating-scale.md
+- council/session-template.md
+- council/response-rubric.md
+
+Use 2-4 voices.
+Score independently, run a council meeting section, then recommend submit, revise, or do not send yet.
+EOF
+}
+
+prompt_product() {
+  cat <<'EOF'
+Use the AI Council for a product-direction question.
+
+Load:
+- packs/founder-product-pack.md
+- council/roster.md
+- council/response-rubric.md
+
+Default voices:
+- Pete Steinberger
+- Chip Huyen
+- Jeremy Howard
+
+Push on wedge, user value, scope, and what should ship next.
+EOF
+}
+
+prompt_systems() {
+  cat <<'EOF'
+Use the AI Council for an agent or systems architecture question.
+
+Load:
+- packs/agent-systems-pack.md
+- council/roster.md
+- council/response-rubric.md
+
+Default voices:
+- Chip Huyen
+- Andrej Karpathy
+- Pete Steinberger
+
+Push on orchestration, eval design, runtime complexity, and operational fit.
+EOF
+}
+
+prompt_clinical() {
+  cat <<'EOF'
+Use the AI Council for a clinical AI or workflow question.
+
+Load:
+- packs/clinical-ai-pack.md
+- council/roster.md
+- council/ask-nigam.md
+- council/response-rubric.md
+
+Default voices:
+- Nigam Shah
+- Jonathan H. Chen
+- Chip Huyen
+
+Push on workflow realism, deployment conditions, evaluation validity, and institutional value.
+EOF
+}
+
+prompt_nigam() {
+  cat <<'EOF'
+Use the AI Council with Nigam Shah as the anchor voice.
+
+Load:
+- council/roster.md
+- council/ask-nigam.md
+- council/session-template.md
+- council/response-rubric.md
+
+Add 1-2 supporting voices only if needed.
+Focus on data realism, workflow fit, deployment conditions, and measurable operational value.
+EOF
+}
+
+prompt_paper() {
+  cat <<'EOF'
+Use the AI Council for a paper, memo, or academic critique.
+
+Load:
+- packs/stanford-academic-pack.md
+- council/roster.md
+- council/rating-scale.md
+- council/response-rubric.md
+
+Default voices:
+- Fei-Fei Li
+- Jeremy Howard
+- Percy Liang
+
+Push on the real intellectual tension, weak argument structure, overclaiming, and the next revision move.
+EOF
+}
+
+prompt_pr_review() {
+  cat <<'EOF'
+Use the AI Council for a review of a document, design, pull request, or proposal.
+
+Load:
+- council/roster.md
+- council/rating-scale.md
+- council/session-template.md
+- council/response-rubric.md
+
+Activate 2-4 voices only.
+Use rating mode, make the disagreement explicit, and end with submit, revise, or do not send yet.
+EOF
+}
+
+prompt_sqs() {
+  cat <<'EOF'
+Use the AI Council for an SQS strategic question.
+
+If you are inside the SQS repo, load:
+- docs/AI_COUNCIL_INTEGRATION.md
+
+Also load:
+- packs/agent-systems-pack.md
+- packs/clinical-ai-pack.md
+- council/roster.md
+- council/ask-nigam.md
+- council/response-rubric.md
+
+Default voices:
+- Nigam Shah
+- Chip Huyen
+- Jonathan H. Chen
+
+Add Pete Steinberger when the question is really about product shape or operator usability.
+Push on workflow realism, eval validity, agent complexity, and what the next move in the repo should be.
+EOF
+}
+
+review_file() {
+  local resolved_path="$1"
+  local mode="${2:-head}"
+  local limit="${3:-$MAX_REVIEW_LINES}"
+  cat <<EOF
+Use the AI Council for a review of this artifact.
+
+Target file:
+- $resolved_path
+
+Load:
+- council/roster.md
+- council/rating-scale.md
+- council/session-template.md
+- council/response-rubric.md
+
+Read the target file before responding.
+Use rating mode with 2-4 voices only.
+
+Output:
+- Situation
+- Active voices
+- Core tension
+- Independent scorecard
+- Council meeting
+- Recommendation
+- Next move
+EOF
+  render_file_context "$resolved_path" "$mode" "$limit"
+}
+
+sqs_review_file() {
+  local resolved_path="$1"
+  local mode="${2:-head}"
+  local limit="${3:-$MAX_REVIEW_LINES}"
+  cat <<EOF
+Use the AI Council for an SQS-specific review of this artifact.
+
+Target file:
+- $resolved_path
+
+If you are inside the SQS repo, also load:
+- docs/AI_COUNCIL_INTEGRATION.md
+
+Load:
+- packs/agent-systems-pack.md
+- packs/clinical-ai-pack.md
+- council/roster.md
+- council/ask-nigam.md
+- council/rating-scale.md
+- council/response-rubric.md
+
+Read the target file before responding.
+Default voices:
+- Nigam Shah
+- Chip Huyen
+- Jonathan H. Chen
+
+Add Pete Steinberger if the issue is product shape or operator usability.
+Focus on workflow realism, eval validity, agent complexity, and whether this should change the next move in the repo.
+EOF
+  render_file_context "$resolved_path" "$mode" "$limit"
+}
+
+doctor() {
+  local bin_path="${HOME}/.local/bin/ai-council"
+  local claude_path="${HOME}/.claude/commands"
+  local codex_path_upper="${HOME}/.Codex/commands"
+  local codex_path_lower="${HOME}/.codex/commands"
+
+  echo "repo: $REPO_ROOT"
+  echo "binary: $(command -v ai-council 2>/dev/null || echo "not on PATH")"
+  echo "local symlink: $bin_path"
+
+  if [ -d "$claude_path" ]; then
+    echo "claude commands: present"
+  else
+    echo "claude commands: missing"
+  fi
+
+  if [ -d "$codex_path_upper" ] || [ -d "$codex_path_lower" ]; then
+    echo "codex commands: present"
+  else
+    echo "codex commands: missing"
+  fi
+}
+
+case "${1:-help}" in
+  help|-h|--help)
+    usage
+    ;;
+  doctor)
+    doctor
+    ;;
+  list)
+    case "${2:-}" in
+      voices) list_voices ;;
+      packs) list_packs ;;
+      commands) list_commands ;;
+      *)
+        echo "Expected one of: voices, packs, commands" >&2
+        exit 1
+        ;;
+    esac
+    ;;
+  prompt)
+    mode="${2:-}"
+    question="${*:3}"
+    case "$mode" in
+      direct) prompt_direct; with_question "$question" ;;
+      roundtable) prompt_roundtable; with_question "$question" ;;
+      debate) prompt_debate; with_question "$question" ;;
+      rating) prompt_rating; with_question "$question" ;;
+      product) prompt_product; with_question "$question" ;;
+      systems) prompt_systems; with_question "$question" ;;
+      clinical) prompt_clinical; with_question "$question" ;;
+      nigam) prompt_nigam; with_question "$question" ;;
+      paper) prompt_paper; with_question "$question" ;;
+      pr-review) prompt_pr_review; with_question "$question" ;;
+      sqs) prompt_sqs; with_question "$question" ;;
+      *)
+        echo "Expected prompt mode: direct, roundtable, debate, rating, product, systems, clinical, nigam, paper, pr-review, sqs" >&2
+        exit 1
+        ;;
+    esac
+    ;;
+  review)
+    parse_review_args "${@:2}"
+    review_file "$REVIEW_TARGET" "$REVIEW_MODE" "$REVIEW_LIMIT"
+    ;;
+  sqs-review)
+    parse_review_args "${@:2}"
+    sqs_review_file "$REVIEW_TARGET" "$REVIEW_MODE" "$REVIEW_LIMIT"
+    ;;
+  install)
+    exec "$REPO_ROOT/scripts/install.sh"
+    ;;
+  *)
+    usage >&2
+    exit 1
+    ;;
+esac

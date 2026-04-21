@@ -1,0 +1,16 @@
+{
+  "name": "ai-council",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Installable CLI and slash-command pack for the AI Council repository.",
+  "bin": {
+    "ai-council": "./bin/ai-council"
+  },
+  "scripts": {
+    "install:local": "./scripts/install.sh",
+    "doctor": "./bin/ai-council doctor",
+    "list:voices": "./bin/ai-council list voices",
+    "list:packs": "./bin/ai-council list packs",
+    "list:commands": "./bin/ai-council list commands"
+  }
+}
